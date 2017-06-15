@@ -1,0 +1,39 @@
+BORRADOR JSON SCHEMA
+
+Escuela
+ ◦ Id escuela
+ ◦ Nombre
+ ◦ Medallistas (id campeonato, id competidor) 2.2 2.3
+
+Competidor
+ ◦ Id competidor
+ ◦ Nombre
+ ◦ Id Escuela
+ ◦ Enfrentamientos (id campeonato, id enfrentamiento, resultóGanador) 2.1
+
+ Arbitro
+ ◦ Id arbitro
+ ◦ Nombre
+ ◦ Campeonatos (id campeonato) 2.4
+
+ Modalidad
+ ◦ Id modalidad
+ ◦ Nombre
+
+MedalleroPorModalidad 2.6
+ ◦ Id modalidad
+	◦ Id competidor
+	◦ Id campeonato
+	◦ puesto
+
+ Enfrentamiento
+ ◦ Id enfrentamiento
+ ◦ Id modalidad
+ ◦ Id campeonato
+ ◦ Llave
+ ◦ Participantes (id competidor, resultóGanador)
+
+Campeonato
+ ◦ Id campeonato
+ ◦ Año
+ ◦ Inscriptos (id competidor, id modalidad) 2.5
