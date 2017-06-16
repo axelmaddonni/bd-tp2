@@ -1,20 +1,38 @@
-//2.1. La cantidad de enfrentamientos ganados por competidor para un campeonato dado.
-r.db('registroHistorico').table('Enfrentamiento').filter({'id_campeonato': 1}).group(function(enfrentamiento) {
-          return enfrentamiento.pluck('participantes').filter({'resulto_ganador': true}).pluck('id_competidor')
-        }).count();
-
-//2.2 La cantidad de medallas por nombre de escuela en toda la historia.
-// Asumiendo que las escuelas pueden repetir nombres
-r.db('registroHistorico').table('Escuela').group('nombre').pluck('medallistas').sum(function(m) {
-  return m.count()
+// 2.1. La cantidad de enfrentamientos ganados por competidor para un campeonato dado.
+r.db('registroHistorico').table('Competidor').filter(function (competidor) {
+	return competidor("enfrentamientos").filter({'id_campeonato': 1}).count().ge(1);
+}).map(function (competidor) {
+	return r.object('nombre', competidor("nombre"), 'cantidadGanados', competidor("enfrentamientos").filter({'id_campeonato': 1}).filter({'resultoGanador': 1}).count());
 });
-// Asumiendo que las escuelas tienen todos nombres distintos
-r.db('registroHistorico').table('Escuela').pluck('medallistas').count();
 
-//2.3 Para cada escuela, el campeonato donde ganó más medallas
-// En este y en el anterior usamos fuertemente que la escuela solo guarda a los competidores que ganaron medallas (validado con Gerardo).
-r.db('registroHistorico').table('Escuela').pluck('medallistas').group('id_campeonato').count().max();
+// 2.2 La cantidad de medallas por nombre de escuela en toda la historia.
+r.db('registroHistorico').table('Escuela').map(function (escuela) {
+	return r.object('nombre', escuela("nombre"), 'cantidadMedallas', escuela("medallistas").count());
+})
 
-//2.4 Los arbitros que participaron en al menos 4 campeonatos
-//Asumimos que no tiene sentido que el mismo árbitro pueda estar inscripto en el mismo campeonato con un nombre o un id distintos.
-r.db('registroHistorico').table('Arbitros').filter(function(arbitro) { return arbitro('participaciones').count().ge(4)});
+// 2.3 Para cada escuela, el campeonato donde ganó más medallas
+r.db('registroHistorico').table('Escuela').map(function (escuela) {
+	var max = escuela('medallistas').group('id_campeonato').count().ungroup().orderBy(r.desc('reduction')).nth(0).default(r.object('reduction', 0)).getField('reduction');
+	return r.object('escuela', escuela("nombre"), 'cantidadDeMedallas', max, 'campeonatos', escuela('medallistas').group('id_campeonato').count().ungroup().orderBy(r.desc('reduction')).filter({'reduction' : max}).getField('group').map( function (idCampeonato) { return r.db('registroHistorico').table('Campeonato').filter({'id_campeonato': idCampeonato}).nth(0).getField('ano'); }));
+});
+
+// 2.4 Los arbitros que participaron en al menos 4 campeonatos
+r.db('registroHistorico').table('Arbitro').filter(function(arbitro) { return arbitro('campeonatos').count().ge(4)}).getField("nombre");
+
+// 2.5 Las escuelas que han presentado el mayor número de competidores en cada campeonato.
+r.db('registroHistorico').table('Campeonato').map(function (campeonato) {
+	var max = campeonato('inscriptos').map(function (id_competidor) {
+		return r.object('id_escuela', r.db('registroHistorico').table('Competidor').filter({'id_competidor': id_competidor}).nth(0).getField('id_escuela'));
+		}).group('id_escuela').count().ungroup().orderBy(r.desc('reduction')).nth(0).default(r.object('reduction', 0)).getField('reduction');
+	return r.object("campeonato", campeonato('ano'), "escuelasConMasInscriptos", campeonato('inscriptos').map(function (id_competidor) {
+		return r.object('id_escuela', r.db('registroHistorico').table('Competidor').filter({'id_competidor': id_competidor}).nth(0).getField('id_escuela'));
+		})
+		.group('id_escuela').count().ungroup().orderBy(r.desc('reduction'))
+		.filter({'reduction' : max}).getField('group').map( function (idEscuela) { return r.db('registroHistorico').table('Escuela').filter({'id_escuela': idEscuela}).nth(0).getField('nombre'); }));
+})
+ 
+// 2.6 Obtener los competidores que más medallas obtuvieron por modalidad.
+r.db('registroHistorico').table('MedalleroPorModalidad').map(function(medallas){
+	var max = medallas('medallas').pluck('id_competidor').group('id_competidor').count().ungroup().orderBy(r.desc('reduction')).nth(0).default(r.object('reduction', 0)).getField('reduction');
+	return r.object('Modalidad',medallas('id_modalidad'), 'cantidadDeMedallas', max, 'competidoresConMasMedallas', medallas('medallas').pluck('id_competidor').group('id_competidor').count().ungroup().orderBy(r.desc('reduction')).filter({'reduction' : max}).getField('group').map( function (id_competidor) { return r.db('registroHistorico').table('Competidor').filter({'id_competidor': id_competidor}).nth(0).getField('nombre'); }));
+})
