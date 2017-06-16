@@ -19,6 +19,14 @@ r.db('registroHistorico').table('Escuela').map(function (escuela) {
 // 2.4 Los arbitros que participaron en al menos 4 campeonatos
 r.db('registroHistorico').table('Arbitro').filter(function(arbitro) { return arbitro('campeonatos').count().ge(4)}).getField("nombre");
 
+//2.4 con Map-reduce
+r.db('registroHistorico').table('Arbitro').map(function(arbitro) {
+  var participoEnAlMenos4 = arbitro('campeonatos').count().ge(4);
+  return r.object('Nombre', r.array(arbitro('nombre')), 'participoEnAlMenos4', participoEnAlMenos4);
+}).reduce(function(acum, e) {
+  return e('participoEnAlMenos4') ? acum.add(e('Nombre')) : acum;
+});
+
 // 2.5 Las escuelas que han presentado el mayor número de competidores en cada campeonato.
 r.db('registroHistorico').table('Campeonato').map(function (campeonato) {
 	var max = campeonato('inscriptos').map(function (id_competidor) {
