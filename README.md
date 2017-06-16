@@ -11,3 +11,7 @@
 ### Informe
 
 ** https://www.overleaf.com/9997717vwhzxjnnnkrm#/36752705/
+
+### Script para generar datos
+
+perl taekwondo.pl (CANTIDAD_DE_CAMPEONATOS)
