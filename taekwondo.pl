@@ -18,7 +18,7 @@ sub llenarEscuelas {
 	my $escuelas = shift;
 	for (my $id = 1; $id <= scalar @ESCUELAS_NOMBRES; $id++) {
 		push(@$escuelas, {
-			id_escuela => $id,
+			id_escuela => $id * 1,
 			nombre => $ESCUELAS_NOMBRES[$id-1],
 			medallistas => [],
 		});
@@ -31,7 +31,7 @@ sub llenarCompetidores {
 
 	for (my $id = 1; $id <= scalar @COMPETIDORES_NOMBRES; $id++) {
 		push(@$competidores, {
-			id_competidor => $id,
+			id_competidor => $id * 1,
 			nombre => $COMPETIDORES_NOMBRES[$id-1],
 			id_escuela => int(rand(scalar @ESCUELAS_NOMBRES))+ 1,
 			enfrentamientos => [],
@@ -69,9 +69,9 @@ sub llenarCampeonatos {
 	my $id = 1;
 	for (my $ano = $MIN_YEAR; $ano <= $MAX_YEAR; $ano++) {
 		push(@$campeonatos, {
-			id_campeonato => $id,
-			ano => $ano,
-			inscriptos => [ keys %{$inscriptos->{$id}} ],
+			id_campeonato => $id * 1,
+			ano => $ano * 1,
+			inscriptos => [ map { $_ * 1 } keys %{$inscriptos->{$id}} ],
 		});
 		$id++;
 	}
@@ -100,7 +100,7 @@ sub llenarArbitros {
 			$campeonatos->{$id} = [ int(rand($MAX_YEAR - $MIN_YEAR)) + 1 ];
 		}
 		push(@$arbitros, {
-			id_arbitro => $id,
+			id_arbitro => $id * 1,
 			nombre => $ARBITROS_NOMBRES[$id-1],
 			campeonatos => $campeonatos->{$id},
 		});
@@ -113,7 +113,7 @@ sub llenarModalidades {
 	my $modalidades = shift;
 	for (my $id = 1; $id <= scalar @MODALIDADES_NOMBRES; $id++) {
 		push(@$modalidades, {
-			id_modalidad => $id,
+			id_modalidad => $id * 1,
 			nombre => $MODALIDADES_NOMBRES[$id-1]
 		});
 	}
@@ -138,9 +138,9 @@ sub agregarEnfrentamientoACompetidor {
 	foreach my $participante (@$participantes) {
 		my $competidor = first { $_->{id_competidor} == $participante->{id_competidor} } @$competidores;
 		push(@{$competidor->{enfrentamientos}}, {
-			id_campeonato => $enfrentamiento->{id_campeonato},
-			id_enfrentamiento => $enfrentamiento->{id_enfrentamiento},
-			resultoGanador => $participante->{resultoGanador}
+			id_campeonato => $enfrentamiento->{id_campeonato} * 1,
+			id_enfrentamiento => $enfrentamiento->{id_enfrentamiento} * 1,
+			resultoGanador => $participante->{resultoGanador} * 1
 		});
 	}
 }
@@ -149,12 +149,12 @@ sub crearMedallero {
 	my $campeonatos = shift;
 
 	my $medallero = [];
-	push (@$medallero, { id_modalidad => 1, medallas => [] });
+	push (@$medallero, { id_modalidad => 1 * 1, medallas => [] });
 
 	for (my $id_modalidad = 2; $id_modalidad <= scalar @MODALIDADES_NOMBRES; $id_modalidad++) {
 		# la modalidad 1 es por enfrentamientos
 
-		my $medallero_modalidad = { id_modalidad => $id_modalidad, medallas => [] };
+		my $medallero_modalidad = { id_modalidad => $id_modalidad * 1, medallas => [] };
 		my $medallas = $medallero_modalidad->{medallas};
 
 		foreach my $campeonato (@$campeonatos) {
@@ -162,9 +162,9 @@ sub crearMedallero {
 			my $random_id = int(rand(scalar @$inscriptos - 2)) + 1;
 			for (my $puesto = 1; $puesto <= 3; $puesto++) {
 				push (@$medallas, {
-					id_competidor => $inscriptos->[$random_id + $puesto - 1],
-					id_campeonato => $campeonato->{id_campeonato},
-					puesto => $puesto,
+					id_competidor => $inscriptos->[$random_id + $puesto - 1] * 1,
+					id_campeonato => $campeonato->{id_campeonato} * 1,
+					puesto => $puesto * 1,
 				});
 			}
 		}
@@ -190,13 +190,13 @@ sub crearEnfrentamientos {
 		# llave 1 (octavos)
 		for (my $i = 0; $i < 16; $i = $i+2 ) {
 			my $enfrentamiento = {
-				id_enfrentamiento => $id_enfrentamiento,
-				id_campeonato => $campeonato->{id_campeonato},
-				id_modalidad => 1,
-				llave => 1,
+				id_enfrentamiento => $id_enfrentamiento * 1,
+				id_campeonato => $campeonato->{id_campeonato} * 1,
+				id_modalidad => 1 * 1,
+				llave => 1 * 1,
 				participantes => [ 
-					{ id_competidor => $inscriptos->[$i], resultoGanador => 'true' },
-					{ id_competidor => $inscriptos->[$i+1], resultoGanador => 'false' }
+					{ id_competidor => $inscriptos->[$i] * 1, resultoGanador => JSON::true },
+					{ id_competidor => $inscriptos->[$i+1] * 1, resultoGanador => JSON::false }
 				]
 			};
 			agregarEnfrentamientoACompetidor($competidores, $enfrentamiento);
@@ -207,13 +207,13 @@ sub crearEnfrentamientos {
 		# llave 2 (cuartos)
 		for (my $i = 0; $i < 16; $i = $i+4 ) {
 			my $enfrentamiento = {
-				id_enfrentamiento => $id_enfrentamiento,
-				id_campeonato => $campeonato->{id_campeonato},
-				id_modalidad => 1,
-				llave => 2,
+				id_enfrentamiento => $id_enfrentamiento * 1,
+				id_campeonato => $campeonato->{id_campeonato} * 1,
+				id_modalidad => 1 * 1,
+				llave => 2 * 1,
 				participantes => [ 
-					{ id_competidor => $inscriptos->[$i], resultoGanador => 'true' },
-					{ id_competidor => $inscriptos->[$i+2], resultoGanador => 'false' }
+					{ id_competidor => $inscriptos->[$i] * 1, resultoGanador =>JSON::true},
+					{ id_competidor => $inscriptos->[$i+2] * 1, resultoGanador => JSON::false }
 				]
 			};
 			agregarEnfrentamientoACompetidor($competidores, $enfrentamiento);
@@ -224,13 +224,13 @@ sub crearEnfrentamientos {
 		# llave 3 (semis)
 		for (my $i = 0; $i < 16; $i = $i+8 ) {
 			my $enfrentamiento = {
-				id_enfrentamiento => $id_enfrentamiento,
-				id_campeonato => $campeonato->{id_campeonato},
-				id_modalidad => 1,
-				llave => 3,
+				id_enfrentamiento => $id_enfrentamiento * 1,
+				id_campeonato => $campeonato->{id_campeonato} * 1,
+				id_modalidad => 1 * 1,
+				llave => 3 * 1,
 				participantes => [ 
-					{ id_competidor => $inscriptos->[$i], resultoGanador => 'true' },
-					{ id_competidor => $inscriptos->[$i+4], resultoGanador => 'false' }
+					{ id_competidor => $inscriptos->[$i] * 1, resultoGanador => JSON::true },
+					{ id_competidor => $inscriptos->[$i+4] * 1, resultoGanador => JSON::false }
 				]
 			};
 			agregarEnfrentamientoACompetidor($competidores, $enfrentamiento);
@@ -240,28 +240,28 @@ sub crearEnfrentamientos {
 
 		# llave 4 (final)
 		my $enfrentamiento = {
-			id_enfrentamiento => $id_enfrentamiento,
-			id_campeonato => $campeonato->{id_campeonato},
-			id_modalidad => 1,
-			llave => 4,
+			id_enfrentamiento => $id_enfrentamiento * 1,
+			id_campeonato => $campeonato->{id_campeonato} * 1,
+			id_modalidad => 1 * 1,
+			llave => 4 * 1,
 			participantes => [ 
-				{ id_competidor => $inscriptos->[0], resultoGanador => 'true' },
-				{ id_competidor => $inscriptos->[8], resultoGanador => 'false' }
+				{ id_competidor => $inscriptos->[0] * 1, resultoGanador => JSON::true },
+				{ id_competidor => $inscriptos->[8] * 1, resultoGanador => JSON::false }
 			]
 		};
 		push(@{$medallero_enfrentamientos->{medallas}}, { 
-			id_competidor => $inscriptos->[0],
-			id_campeonato => $campeonato->{id_campeonato},
+			id_competidor => $inscriptos->[0] * 1,
+			id_campeonato => $campeonato->{id_campeonato} * 1,
 			puesto => 1
 		});
 		push(@{$medallero_enfrentamientos->{medallas}}, { 
-			id_competidor => $inscriptos->[8],
-			id_campeonato => $campeonato->{id_campeonato},
+			id_competidor => $inscriptos->[8] * 1,
+			id_campeonato => $campeonato->{id_campeonato} * 1,
 			puesto => 2
 		});
 		push(@{$medallero_enfrentamientos->{medallas}}, { 
-			id_competidor => $inscriptos->[4],
-			id_campeonato => $campeonato->{id_campeonato},
+			id_competidor => $inscriptos->[4] * 1,
+			id_campeonato => $campeonato->{id_campeonato} * 1,
 			puesto => 3
 		});
 		agregarEnfrentamientoACompetidor($competidores, $enfrentamiento);
@@ -285,8 +285,8 @@ sub completarMedallistasPorEscuela {
 			my $id_escuela = $competidor->{id_escuela};
 			my $escuela = first { $_->{id_escuela} == $id_escuela } @$escuelas;
 			push(@{$escuela->{medallistas}}, {
-				id_campeonato => $id_campeonato,
-				id_competidor => $id_competidor,
+				id_campeonato => $id_campeonato * 1,
+				id_competidor => $id_competidor * 1,
 			});
 		}
 	}

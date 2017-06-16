@@ -1,796 +1,796 @@
 [
     {
         "nombre": "Sara Kwiatkowski",
+        "id_arbitro": 1,
         "campeonatos": [
-            15
-        ],
-        "id_arbitro": "1"
+            2,
+            16
+        ]
     },
     {
-        "id_arbitro": "2",
         "campeonatos": [
-            4
+            1
         ],
+        "id_arbitro": 2,
         "nombre": "Lyle Mansir"
     },
     {
-        "nombre": "Karyn Flink",
         "campeonatos": [
-            12,
-            14
+            5,
+            16
         ],
-        "id_arbitro": "3"
+        "id_arbitro": 3,
+        "nombre": "Karyn Flink"
     },
     {
-        "id_arbitro": "4",
         "campeonatos": [
-            11,
-            13
+            6,
+            7,
+            7
         ],
-        "nombre": "Sherie Hirst"
+        "nombre": "Sherie Hirst",
+        "id_arbitro": 4
     },
     {
         "nombre": "Shonta Lupi",
+        "id_arbitro": 5,
         "campeonatos": [
-            3,
-            6,
-            18
-        ],
-        "id_arbitro": "5"
-    },
-    {
-        "id_arbitro": "6",
-        "nombre": "Reatha Mahlum",
-        "campeonatos": [
-            4
-        ]
-    },
-    {
-        "nombre": "Sherron Dunnigan",
-        "campeonatos": [
-            3
-        ],
-        "id_arbitro": "7"
-    },
-    {
-        "nombre": "Signe Galeana",
-        "campeonatos": [
-            2
-        ],
-        "id_arbitro": "8"
-    },
-    {
-        "nombre": "Clarice Boshart",
-        "campeonatos": [
-            3,
-            6
-        ],
-        "id_arbitro": "9"
-    },
-    {
-        "campeonatos": [
-            6,
-            10
-        ],
-        "nombre": "Caridad Rieder",
-        "id_arbitro": "10"
-    },
-    {
-        "id_arbitro": "11",
-        "nombre": "Brain Pasquariello",
-        "campeonatos": [
-            13,
-            14,
+            2,
             15
         ]
     },
     {
-        "nombre": "Donita Golla",
+        "nombre": "Reatha Mahlum",
+        "id_arbitro": 6,
         "campeonatos": [
+            14,
             16
-        ],
-        "id_arbitro": "12"
+        ]
     },
     {
-        "id_arbitro": "13",
-        "campeonatos": [
-            2,
-            5,
-            13
-        ],
-        "nombre": "Rosenda Marchese"
-    },
-    {
-        "id_arbitro": "14",
-        "nombre": "Sherley Hone",
         "campeonatos": [
             3
-        ]
-    },
-    {
-        "campeonatos": [
-            1,
-            2,
-            7
         ],
-        "nombre": "Alvaro Mask",
-        "id_arbitro": "15"
+        "id_arbitro": 7,
+        "nombre": "Sherron Dunnigan"
     },
     {
-        "nombre": "Annabel Kesner",
+        "id_arbitro": 8,
+        "nombre": "Signe Galeana",
         "campeonatos": [
             11,
-            16
-        ],
-        "id_arbitro": "16"
-    },
-    {
-        "nombre": "Laveta Ridenhour",
-        "campeonatos": [
-            7,
-            7,
-            9,
-            12,
-            16
-        ],
-        "id_arbitro": "17"
-    },
-    {
-        "id_arbitro": "18",
-        "nombre": "Katrice Eslinger",
-        "campeonatos": [
-            18
+            16,
+            17
         ]
     },
     {
-        "id_arbitro": "19",
-        "nombre": "Donald Earley",
         "campeonatos": [
-            16
-        ]
-    },
-    {
-        "nombre": "Connie Forgey",
-        "campeonatos": [
-            13
-        ],
-        "id_arbitro": "20"
-    },
-    {
-        "id_arbitro": "21",
-        "campeonatos": [
-            13
-        ],
-        "nombre": "Wen Ruano"
-    },
-    {
-        "id_arbitro": "22",
-        "campeonatos": [
-            6,
-            12
-        ],
-        "nombre": "Oma Perrotta"
-    },
-    {
-        "id_arbitro": "23",
-        "campeonatos": [
-            1,
             5,
             6,
             10
         ],
+        "nombre": "Clarice Boshart",
+        "id_arbitro": 9
+    },
+    {
+        "campeonatos": [
+            12
+        ],
+        "nombre": "Caridad Rieder",
+        "id_arbitro": 10
+    },
+    {
+        "id_arbitro": 11,
+        "nombre": "Brain Pasquariello",
+        "campeonatos": [
+            2,
+            2,
+            7,
+            8,
+            15,
+            17
+        ]
+    },
+    {
+        "id_arbitro": 12,
+        "nombre": "Donita Golla",
+        "campeonatos": [
+            17
+        ]
+    },
+    {
+        "campeonatos": [
+            2,
+            8,
+            13,
+            13
+        ],
+        "nombre": "Rosenda Marchese",
+        "id_arbitro": 13
+    },
+    {
+        "campeonatos": [
+            10,
+            11
+        ],
+        "id_arbitro": 14,
+        "nombre": "Sherley Hone"
+    },
+    {
+        "campeonatos": [
+            1,
+            13,
+            15
+        ],
+        "id_arbitro": 15,
+        "nombre": "Alvaro Mask"
+    },
+    {
+        "nombre": "Annabel Kesner",
+        "id_arbitro": 16,
+        "campeonatos": [
+            15
+        ]
+    },
+    {
+        "campeonatos": [
+            8
+        ],
+        "id_arbitro": 17,
+        "nombre": "Laveta Ridenhour"
+    },
+    {
+        "id_arbitro": 18,
+        "nombre": "Katrice Eslinger",
+        "campeonatos": [
+            5,
+            8,
+            14
+        ]
+    },
+    {
+        "campeonatos": [
+            2,
+            7,
+            16
+        ],
+        "nombre": "Donald Earley",
+        "id_arbitro": 19
+    },
+    {
+        "id_arbitro": 20,
+        "nombre": "Connie Forgey",
+        "campeonatos": [
+            9
+        ]
+    },
+    {
+        "nombre": "Wen Ruano",
+        "id_arbitro": 21,
+        "campeonatos": [
+            1,
+            4,
+            8
+        ]
+    },
+    {
+        "id_arbitro": 22,
+        "nombre": "Oma Perrotta",
+        "campeonatos": [
+            16
+        ]
+    },
+    {
+        "campeonatos": [
+            3,
+            4
+        ],
+        "id_arbitro": 23,
         "nombre": "Ying Heist"
     },
     {
         "campeonatos": [
             3,
-            17
+            13,
+            13,
+            15
         ],
         "nombre": "Ivy Luczynski",
-        "id_arbitro": "24"
+        "id_arbitro": 24
     },
     {
-        "id_arbitro": "25",
+        "nombre": "Ahmed Butcher",
+        "id_arbitro": 25,
+        "campeonatos": [
+            17
+        ]
+    },
+    {
+        "id_arbitro": 26,
+        "nombre": "Verena Fortson",
         "campeonatos": [
             4
-        ],
-        "nombre": "Ahmed Butcher"
+        ]
     },
     {
-        "id_arbitro": "26",
-        "campeonatos": [
-            6,
-            11
-        ],
-        "nombre": "Verena Fortson"
-    },
-    {
-        "id_arbitro": "27",
+        "id_arbitro": 27,
         "nombre": "Margart Cypert",
         "campeonatos": [
-            1,
-            6,
-            12
+            15
         ]
     },
     {
         "nombre": "Kelvin Ehmann",
+        "id_arbitro": 28,
         "campeonatos": [
-            3,
             5,
-            8,
-            15,
-            16
-        ],
-        "id_arbitro": "28"
+            18
+        ]
     },
     {
-        "id_arbitro": "29",
-        "nombre": "Cammy Mccullough",
         "campeonatos": [
+            10
+        ],
+        "nombre": "Cammy Mccullough",
+        "id_arbitro": 29
+    },
+    {
+        "campeonatos": [
+            15
+        ],
+        "id_arbitro": 30,
+        "nombre": "Meta Utt"
+    },
+    {
+        "nombre": "Pearlie Casimir",
+        "id_arbitro": 31,
+        "campeonatos": [
+            4,
+            6,
+            12,
+            14
+        ]
+    },
+    {
+        "campeonatos": [
+            6,
+            16
+        ],
+        "nombre": "Von Mccampbell",
+        "id_arbitro": 32
+    },
+    {
+        "campeonatos": [
+            15
+        ],
+        "nombre": "Ivory Perrone",
+        "id_arbitro": 33
+    },
+    {
+        "campeonatos": [
+            10
+        ],
+        "nombre": "Keva Welch",
+        "id_arbitro": 34
+    },
+    {
+        "nombre": "Mozella Malinowski",
+        "id_arbitro": 35,
+        "campeonatos": [
+            9
+        ]
+    },
+    {
+        "campeonatos": [
+            10,
+            15
+        ],
+        "nombre": "Sid Douville",
+        "id_arbitro": 36
+    },
+    {
+        "nombre": "Kristen Richburg",
+        "id_arbitro": 37,
+        "campeonatos": [
+            3,
+            17
+        ]
+    },
+    {
+        "campeonatos": [
+            5
+        ],
+        "nombre": "Elida Roselli",
+        "id_arbitro": 38
+    },
+    {
+        "nombre": "Princess Pare",
+        "id_arbitro": 39,
+        "campeonatos": [
+            14
+        ]
+    },
+    {
+        "nombre": "Margarete Kesten",
+        "id_arbitro": 40,
+        "campeonatos": [
+            12,
+            14
+        ]
+    },
+    {
+        "campeonatos": [
+            7
+        ],
+        "id_arbitro": 41,
+        "nombre": "Charisse Branam"
+    },
+    {
+        "id_arbitro": 42,
+        "nombre": "Yoshie Agbayani",
+        "campeonatos": [
+            6
+        ]
+    },
+    {
+        "nombre": "Sena Cowen",
+        "id_arbitro": 43,
+        "campeonatos": [
+            6,
             13
         ]
     },
     {
-        "nombre": "Meta Utt",
-        "campeonatos": [
-            4
-        ],
-        "id_arbitro": "30"
-    },
-    {
-        "nombre": "Pearlie Casimir",
-        "campeonatos": [
-            1,
-            5,
-            10
-        ],
-        "id_arbitro": "31"
-    },
-    {
-        "id_arbitro": "32",
-        "nombre": "Von Mccampbell",
-        "campeonatos": [
-            17
-        ]
-    },
-    {
-        "id_arbitro": "33",
-        "campeonatos": [
-            3,
-            18
-        ],
-        "nombre": "Ivory Perrone"
-    },
-    {
-        "campeonatos": [
-            5
-        ],
-        "nombre": "Keva Welch",
-        "id_arbitro": "34"
-    },
-    {
-        "campeonatos": [
-            1
-        ],
-        "nombre": "Mozella Malinowski",
-        "id_arbitro": "35"
-    },
-    {
-        "id_arbitro": "36",
-        "nombre": "Sid Douville",
-        "campeonatos": [
-            10
-        ]
-    },
-    {
-        "id_arbitro": "37",
-        "campeonatos": [
-            12,
-            15
-        ],
-        "nombre": "Kristen Richburg"
-    },
-    {
-        "campeonatos": [
-            17
-        ],
-        "nombre": "Elida Roselli",
-        "id_arbitro": "38"
-    },
-    {
-        "id_arbitro": "39",
-        "campeonatos": [
-            3,
-            5
-        ],
-        "nombre": "Princess Pare"
-    },
-    {
-        "campeonatos": [
-            1,
-            5,
-            18
-        ],
-        "nombre": "Margarete Kesten",
-        "id_arbitro": "40"
-    },
-    {
-        "campeonatos": [
-            17
-        ],
-        "nombre": "Charisse Branam",
-        "id_arbitro": "41"
-    },
-    {
-        "campeonatos": [
-            3,
-            18
-        ],
-        "nombre": "Yoshie Agbayani",
-        "id_arbitro": "42"
-    },
-    {
-        "id_arbitro": "43",
-        "nombre": "Sena Cowen",
+        "nombre": "Yvette Insley",
+        "id_arbitro": 44,
         "campeonatos": [
             9,
-            9
+            12
         ]
     },
     {
         "campeonatos": [
-            9
+            12
         ],
-        "nombre": "Yvette Insley",
-        "id_arbitro": "44"
+        "nombre": "Kristin Tilford",
+        "id_arbitro": 45
     },
     {
-        "id_arbitro": "45",
-        "nombre": "Kristin Tilford",
+        "id_arbitro": 46,
+        "nombre": "Kaci Bloyd",
         "campeonatos": [
-            10,
-            15
+            1,
+            7,
+            12
         ]
+    },
+    {
+        "nombre": "Lucile Prichard",
+        "id_arbitro": 47,
+        "campeonatos": [
+            5
+        ]
+    },
+    {
+        "campeonatos": [
+            17
+        ],
+        "id_arbitro": 48,
+        "nombre": "Leonia Lauterbach"
     },
     {
         "campeonatos": [
             2,
-            10
+            8
         ],
-        "nombre": "Kaci Bloyd",
-        "id_arbitro": "46"
-    },
-    {
-        "id_arbitro": "47",
-        "nombre": "Lucile Prichard",
-        "campeonatos": [
-            5,
-            5
-        ]
-    },
-    {
-        "nombre": "Leonia Lauterbach",
-        "campeonatos": [
-            13
-        ],
-        "id_arbitro": "48"
+        "id_arbitro": 49,
+        "nombre": "Nancie Adames"
     },
     {
         "campeonatos": [
-            9,
-            11
+            1,
+            11,
+            17,
+            18
         ],
-        "nombre": "Nancie Adames",
-        "id_arbitro": "49"
-    },
-    {
-        "id_arbitro": "50",
-        "campeonatos": [
-            14,
-            17
-        ],
+        "id_arbitro": 50,
         "nombre": "Garfield Alexandre"
     },
     {
-        "id_arbitro": "51",
+        "id_arbitro": 51,
         "nombre": "Hoa Festa",
         "campeonatos": [
-            9,
-            11,
-            14
+            7
         ]
     },
     {
         "nombre": "Lorine Mulhall",
+        "id_arbitro": 52,
         "campeonatos": [
-            4,
-            16
-        ],
-        "id_arbitro": "52"
+            11
+        ]
     },
     {
-        "id_arbitro": "53",
         "campeonatos": [
-            3,
-            15
+            8
         ],
+        "id_arbitro": 53,
         "nombre": "Jamison Kerfien"
     },
     {
-        "id_arbitro": "54",
+        "campeonatos": [
+            3
+        ],
         "nombre": "Kylie Deshong",
+        "id_arbitro": 54
+    },
+    {
         "campeonatos": [
             1,
-            7,
-            17
-        ]
-    },
-    {
-        "id_arbitro": "55",
-        "campeonatos": [
-            8,
-            10
-        ],
-        "nombre": "Charlott Mattson"
-    },
-    {
-        "id_arbitro": "56",
-        "campeonatos": [
-            12
-        ],
-        "nombre": "Maryam Grasso"
-    },
-    {
-        "nombre": "Alvina Knobloch",
-        "campeonatos": [
-            17
-        ],
-        "id_arbitro": "57"
-    },
-    {
-        "id_arbitro": "58",
-        "nombre": "Graig Toothaker",
-        "campeonatos": [
-            6,
-            8,
-            9,
             11,
-            15,
-            16
+            17
+        ],
+        "nombre": "Charlott Mattson",
+        "id_arbitro": 55
+    },
+    {
+        "nombre": "Maryam Grasso",
+        "id_arbitro": 56,
+        "campeonatos": [
+            5,
+            8
         ]
     },
     {
-        "id_arbitro": "59",
-        "nombre": "Stacee Mclain",
         "campeonatos": [
-            7,
+            5
+        ],
+        "nombre": "Alvina Knobloch",
+        "id_arbitro": 57
+    },
+    {
+        "campeonatos": [
+            1,
+            2,
+            11
+        ],
+        "id_arbitro": 58,
+        "nombre": "Graig Toothaker"
+    },
+    {
+        "campeonatos": [
+            14
+        ],
+        "nombre": "Stacee Mclain",
+        "id_arbitro": 59
+    },
+    {
+        "nombre": "Gilberto Ariola",
+        "id_arbitro": 60,
+        "campeonatos": [
+            17
+        ]
+    },
+    {
+        "id_arbitro": 61,
+        "nombre": "Neville Mercier",
+        "campeonatos": [
+            4
+        ]
+    },
+    {
+        "id_arbitro": 62,
+        "nombre": "Todd Kratky",
+        "campeonatos": [
+            10,
+            14,
             18
         ]
     },
     {
-        "id_arbitro": "60",
         "campeonatos": [
-            1,
-            17
-        ],
-        "nombre": "Gilberto Ariola"
-    },
-    {
-        "campeonatos": [
-            4
-        ],
-        "nombre": "Neville Mercier",
-        "id_arbitro": "61"
-    },
-    {
-        "campeonatos": [
-            2,
             4,
-            13
+            10,
+            10,
+            11,
+            18,
+            18
         ],
-        "nombre": "Todd Kratky",
-        "id_arbitro": "62"
+        "id_arbitro": 63,
+        "nombre": "Deandre Cardone"
     },
     {
-        "id_arbitro": "63",
-        "nombre": "Deandre Cardone",
+        "nombre": "Lanita Hassan",
+        "id_arbitro": 64,
         "campeonatos": [
-            2,
-            6,
-            13
+            6
         ]
     },
     {
-        "id_arbitro": "64",
+        "nombre": "Adalberto Krenz",
+        "id_arbitro": 65,
         "campeonatos": [
             4,
-            7,
+            4,
+            9,
+            11,
+            16,
+            16
+        ]
+    },
+    {
+        "nombre": "Maragaret Carolan",
+        "id_arbitro": 66,
+        "campeonatos": [
             13,
             15
-        ],
-        "nombre": "Lanita Hassan"
+        ]
     },
     {
-        "campeonatos": [
-            2,
-            14
-        ],
-        "nombre": "Adalberto Krenz",
-        "id_arbitro": "65"
-    },
-    {
-        "campeonatos": [
-            16
-        ],
-        "nombre": "Maragaret Carolan",
-        "id_arbitro": "66"
-    },
-    {
-        "campeonatos": [
-            7,
-            7
-        ],
+        "id_arbitro": 67,
         "nombre": "Frederica Herder",
-        "id_arbitro": "67"
-    },
-    {
-        "id_arbitro": "68",
         "campeonatos": [
-            2,
-            10
-        ],
-        "nombre": "Carletta Hoop"
+            13,
+            18
+        ]
     },
     {
-        "id_arbitro": "69",
         "campeonatos": [
             4
         ],
+        "id_arbitro": 68,
+        "nombre": "Carletta Hoop"
+    },
+    {
+        "campeonatos": [
+            7
+        ],
+        "id_arbitro": 69,
         "nombre": "Takako Birkland"
     },
     {
         "campeonatos": [
-            1
+            18
         ],
         "nombre": "Lola Capshaw",
-        "id_arbitro": "70"
+        "id_arbitro": 70
     },
     {
-        "id_arbitro": "71",
         "nombre": "Natalie Ely",
+        "id_arbitro": 71,
         "campeonatos": [
-            2
+            9
         ]
     },
     {
-        "id_arbitro": "72",
+        "id_arbitro": 72,
         "nombre": "Bennie Souther",
         "campeonatos": [
-            6,
-            18
+            9,
+            10
+        ]
+    },
+    {
+        "id_arbitro": 73,
+        "nombre": "Oleta Birney",
+        "campeonatos": [
+            9,
+            12,
+            17
+        ]
+    },
+    {
+        "nombre": "Sharell Land",
+        "id_arbitro": 74,
+        "campeonatos": [
+            3,
+            4,
+            11
         ]
     },
     {
         "campeonatos": [
-            11
-        ],
-        "nombre": "Oleta Birney",
-        "id_arbitro": "73"
-    },
-    {
-        "campeonatos": [
-            17
-        ],
-        "nombre": "Sharell Land",
-        "id_arbitro": "74"
-    },
-    {
-        "campeonatos": [
-            4,
+            6,
             11,
-            11,
-            15
+            14
         ],
-        "nombre": "Isabella Jasinski",
-        "id_arbitro": "75"
+        "id_arbitro": 75,
+        "nombre": "Isabella Jasinski"
     },
     {
-        "id_arbitro": "76",
         "campeonatos": [
-            10
+            13
         ],
+        "id_arbitro": 76,
         "nombre": "Marvin Skowronski"
     },
     {
-        "id_arbitro": "77",
+        "id_arbitro": 77,
+        "nombre": "Janine Geary",
         "campeonatos": [
-            8
-        ],
-        "nombre": "Janine Geary"
+            4,
+            5,
+            9
+        ]
     },
     {
+        "campeonatos": [
+            8,
+            10
+        ],
         "nombre": "Mellissa Govea",
-        "campeonatos": [
-            7
-        ],
-        "id_arbitro": "78"
+        "id_arbitro": 78
     },
     {
-        "id_arbitro": "79",
         "campeonatos": [
-            9,
-            14
+            2,
+            6,
+            17
         ],
+        "id_arbitro": 79,
         "nombre": "Anna Cuff"
     },
     {
+        "id_arbitro": 80,
         "nombre": "Zoraida Batchelor",
         "campeonatos": [
-            4,
-            14,
             18
-        ],
-        "id_arbitro": "80"
+        ]
     },
     {
-        "id_arbitro": "81",
         "campeonatos": [
-            8,
-            8,
-            17
+            7
         ],
+        "id_arbitro": 81,
         "nombre": "Kellye Guinan"
     },
     {
-        "id_arbitro": "82",
         "campeonatos": [
+            5,
+            6,
+            14,
             18
         ],
+        "id_arbitro": 82,
         "nombre": "Deetta Fite"
     },
     {
-        "id_arbitro": "83",
+        "id_arbitro": 83,
         "nombre": "Amanda Rentfro",
         "campeonatos": [
-            10,
-            14
+            17
         ]
     },
     {
         "nombre": "Dominica Granata",
+        "id_arbitro": 84,
         "campeonatos": [
-            4
-        ],
-        "id_arbitro": "84"
-    },
-    {
-        "id_arbitro": "85",
-        "nombre": "Darius Sasse",
-        "campeonatos": [
-            8
+            12
         ]
     },
     {
+        "campeonatos": [
+            10,
+            12
+        ],
+        "id_arbitro": 85,
+        "nombre": "Darius Sasse"
+    },
+    {
+        "id_arbitro": 86,
         "nombre": "Roosevelt Halperin",
         "campeonatos": [
-            8
+            1,
+            3,
+            12,
+            14,
+            15
+        ]
+    },
+    {
+        "campeonatos": [
+            8,
+            9
         ],
-        "id_arbitro": "86"
+        "id_arbitro": 87,
+        "nombre": "Katherin Stoddard"
+    },
+    {
+        "campeonatos": [
+            9
+        ],
+        "nombre": "Deandra Funnell",
+        "id_arbitro": 88
     },
     {
         "campeonatos": [
             1
         ],
-        "nombre": "Katherin Stoddard",
-        "id_arbitro": "87"
-    },
-    {
-        "nombre": "Deandra Funnell",
-        "campeonatos": [
-            10,
-            16
-        ],
-        "id_arbitro": "88"
-    },
-    {
-        "id_arbitro": "89",
-        "nombre": "Kayce Sheffey",
-        "campeonatos": [
-            5
-        ]
+        "id_arbitro": 89,
+        "nombre": "Kayce Sheffey"
     },
     {
         "nombre": "Tiera Ngo",
+        "id_arbitro": 90,
         "campeonatos": [
-            12,
-            15
-        ],
-        "id_arbitro": "90"
-    },
-    {
-        "id_arbitro": "91",
-        "nombre": "Darcel Troxel",
-        "campeonatos": [
-            1,
-            8
+            3
         ]
     },
     {
         "campeonatos": [
             17
         ],
-        "nombre": "Marna Vanderhoof",
-        "id_arbitro": "92"
+        "nombre": "Darcel Troxel",
+        "id_arbitro": 91
     },
     {
         "campeonatos": [
-            8,
-            12
+            16
         ],
-        "nombre": "Deanna Holtzman",
-        "id_arbitro": "93"
+        "nombre": "Marna Vanderhoof",
+        "id_arbitro": 92
     },
     {
-        "id_arbitro": "94",
-        "nombre": "Dave Heffner",
         "campeonatos": [
-            12,
-            14
-        ]
+            3
+        ],
+        "id_arbitro": 93,
+        "nombre": "Deanna Holtzman"
     },
     {
-        "id_arbitro": "95",
+        "campeonatos": [
+            3,
+            6,
+            7,
+            7,
+            17
+        ],
+        "nombre": "Dave Heffner",
+        "id_arbitro": 94
+    },
+    {
+        "campeonatos": [
+            9,
+            13
+        ],
         "nombre": "Cathryn Pauli",
+        "id_arbitro": 95
+    },
+    {
+        "campeonatos": [
+            8
+        ],
+        "id_arbitro": 96,
+        "nombre": "Winfred Blackmer"
+    },
+    {
         "campeonatos": [
             2,
-            5,
-            9,
-            14
-        ]
+            18
+        ],
+        "id_arbitro": 97,
+        "nombre": "Kelley Waldo"
     },
     {
-        "id_arbitro": "96",
-        "nombre": "Winfred Blackmer",
+        "id_arbitro": 98,
+        "nombre": "Vincenzo Herod",
         "campeonatos": [
-            8,
-            9,
-            11,
-            13,
             16
         ]
     },
     {
-        "id_arbitro": "97",
         "campeonatos": [
-            3,
-            5,
-            7
+            6
         ],
-        "nombre": "Kelley Waldo"
-    },
-    {
-        "id_arbitro": "98",
-        "nombre": "Vincenzo Herod",
-        "campeonatos": [
-            9,
-            18
-        ]
-    },
-    {
-        "id_arbitro": "99",
         "nombre": "Julianne Chalfant",
-        "campeonatos": [
-            2,
-            10,
-            11
-        ]
+        "id_arbitro": 99
     },
     {
         "nombre": "Lien Luzier",
+        "id_arbitro": 100,
         "campeonatos": [
-            12
-        ],
-        "id_arbitro": "100"
+            1,
+            16
+        ]
     }
 ]
