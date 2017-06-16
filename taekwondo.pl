@@ -1,6 +1,10 @@
 use strict;
 use warnings;
 use JSON;
+use List::Util qw/first/;
+
+my $MIN_YEAR = 2000;
+my $MAX_YEAR = 2018;
 
 my @ESCUELAS_NOMBRES = ("Bangkok", "Ankara", "Moscow", "Tianjin", "Lahore", "Shenzhen", "Chennai", "New Taipei City", "Durban", "Cairo", "Santiago", "Beijing", "Hong Kong", "Suzhou", "New York City", "Mumbai", "Singapore", "Guangzhou", "Los Angeles", "Shenyang", "Jakarta", "Ho Chi Minh City", "Seoul", "Bogota", "Alexandria", "Lima", "Jaipur", "Delhi", "London", "Yokohama", "Riyadh", "Abidjan", "Yangon", "Pune", "Karachi", "Pyongyang", "Cape Town", "Addis Ababa", "Tehran", "Busan", "Mexico City", "Baghdad", "Tokyo", "Shanghai", "Rio de Janeiro", "Dongguan", "Madrid", "Kinshasa", "Lagos", "Nairobi", "Bangalore", "Dhaka", "Berlin", "Istanbul", "Johannesburg", "Ahmedabad", "Casablanca", "Sao Paulo", "Jeddah", "Hanoi", "Hyderabad", "Surat", "Kolkata", "Saint Petersburg");
 
@@ -8,17 +12,15 @@ my @COMPETIDORES_NOMBRES = ("Kristeen Juckett", "Nestor Pantoja", "Gustavo Moon"
 
 my @ARBITROS_NOMBRES = ("Sara Kwiatkowski", "Lyle Mansir", "Karyn Flink", "Sherie Hirst", "Shonta Lupi", "Reatha Mahlum", "Sherron Dunnigan", "Signe Galeana", "Clarice Boshart", "Caridad Rieder", "Brain Pasquariello", "Donita Golla", "Rosenda Marchese", "Sherley Hone", "Alvaro Mask", "Annabel Kesner", "Laveta Ridenhour", "Katrice Eslinger", "Donald Earley", "Connie Forgey", "Wen Ruano", "Oma Perrotta", "Ying Heist", "Ivy Luczynski", "Ahmed Butcher", "Verena Fortson", "Margart Cypert", "Kelvin Ehmann", "Cammy Mccullough", "Meta Utt", "Pearlie Casimir", "Von Mccampbell", "Ivory Perrone", "Keva Welch", "Mozella Malinowski", "Sid Douville", "Kristen Richburg", "Elida Roselli", "Princess Pare", "Margarete Kesten", "Charisse Branam", "Yoshie Agbayani", "Sena Cowen", "Yvette Insley", "Kristin Tilford", "Kaci Bloyd", "Lucile Prichard", "Leonia Lauterbach", "Nancie Adames", "Garfield Alexandre", "Hoa Festa", "Lorine Mulhall", "Jamison Kerfien", "Kylie Deshong", "Charlott Mattson", "Maryam Grasso", "Alvina Knobloch", "Graig Toothaker", "Stacee Mclain", "Gilberto Ariola", "Neville Mercier", "Todd Kratky", "Deandre Cardone", "Lanita Hassan", "Adalberto Krenz", "Maragaret Carolan", "Frederica Herder", "Carletta Hoop", "Takako Birkland", "Lola Capshaw", "Natalie Ely", "Bennie Souther", "Oleta Birney", "Sharell Land", "Isabella Jasinski", "Marvin Skowronski", "Janine Geary", "Mellissa Govea", "Anna Cuff", "Zoraida Batchelor", "Kellye Guinan", "Deetta Fite", "Amanda Rentfro", "Dominica Granata", "Darius Sasse", "Roosevelt Halperin", "Katherin Stoddard", "Deandra Funnell", "Kayce Sheffey", "Tiera Ngo", "Darcel Troxel", "Marna Vanderhoof", "Deanna Holtzman", "Dave Heffner", "Cathryn Pauli", "Winfred Blackmer", "Kelley Waldo", "Vincenzo Herod", "Julianne Chalfant", "Lien Luzier");
 
-my $MIN_YEAR = 1950;
-my $MAX_YEAR = 2018;
-
-my @MODALIDADES_NOMBRES = ("Rotura de Potencias", "Salto", "Formas", "Combate");
+my @MODALIDADES_NOMBRES = ("Combate", "Rotura de Potencias", "Salto", "Formas");
 
 sub llenarEscuelas {
 	my $escuelas = shift;
 	for (my $id = 1; $id <= scalar @ESCUELAS_NOMBRES; $id++) {
 		push(@$escuelas, {
 			id_escuela => $id,
-			nombre => $ESCUELAS_NOMBRES[$id-1]
+			nombre => $ESCUELAS_NOMBRES[$id-1],
+			medallistas => [],
 		});
 	}
 	return $escuelas;
@@ -31,7 +33,8 @@ sub llenarCompetidores {
 		push(@$competidores, {
 			id_competidor => $id,
 			nombre => $COMPETIDORES_NOMBRES[$id-1],
-			id_escuela => int(rand(scalar @ESCUELAS_NOMBRES))+ 1
+			id_escuela => int(rand(scalar @ESCUELAS_NOMBRES))+ 1,
+			enfrentamientos => [],
 		});
 	}
 	return $competidores;
@@ -43,17 +46,36 @@ sub llenarCampeonatos {
 	my $inscriptos = {};
 
 	# Para cada competidor, lo inscribo en al menos N campeonatos
+	for (my $id_competidor = 1; $id_competidor < scalar @COMPETIDORES_NOMBRES; $id_competidor++) {
+		my $cantidad_campeonatos = int(rand($MAX_YEAR - $MIN_YEAR)) + 1;
+		for (my $i = 0; $i < $cantidad_campeonatos; $i++) {
+			$inscriptos->{int(rand($MAX_YEAR - $MIN_YEAR)) + 1}->{$id_competidor} = 1;
+		}
+	}
 
 	# Para cada campeonato, inscribo al menos M competidores
+	for (my $id_campeonato = 1; $id_campeonato <= ($MAX_YEAR - $MIN_YEAR) + 1; $id_campeonato++) {
+		my $cantidad_competidores = 20;
+		for (my $i = 0; $i < $cantidad_competidores; $i++) {
+			my $id_competidor = int(rand(scalar @COMPETIDORES_NOMBRES)) + 1;
+			while (defined $inscriptos->{$id_campeonato}->{$id_competidor} &&
+				scalar keys %{$inscriptos->{$id_campeonato}} != scalar @COMPETIDORES_NOMBRES) {
+				$id_competidor = int(rand(scalar @COMPETIDORES_NOMBRES)) + 1;
+			}
+			$inscriptos->{$id_campeonato}->{$id_competidor} = 1;
+		}
+	}
 
 	my $id = 1;
 	for (my $ano = $MIN_YEAR; $ano <= $MAX_YEAR; $ano++) {
 		push(@$campeonatos, {
 			id_campeonato => $id,
 			ano => $ano,
-			inscriptos => $inscriptos->{$id},
+			inscriptos => [ keys %{$inscriptos->{$id}} ],
 		});
+		$id++;
 	}
+
 	return $campeonatos;
 }
 
@@ -61,7 +83,7 @@ sub llenarArbitros {
 	my $arbitros = shift;
 
 	# Me aseguro que haya arbitros por cada campeonato
-	my $ARBITROS_POR_CAMPEONATO = 6;
+	my $ARBITROS_POR_CAMPEONATO = 10;
 	my $campeonatos = {};
 	for (my $i = 1; $i <= ($MAX_YEAR - $MIN_YEAR); $i++) {
 		for (my $j = 0; $j < $ARBITROS_POR_CAMPEONATO; $j++) {
@@ -99,10 +121,181 @@ sub llenarModalidades {
 }
 
 sub imprimir {
-	my @jsons = @_;
-	foreach my $json (@jsons) {
-		print $json, "\n";
+	my @tablas = @_;
+	foreach my $tabla (@tablas) {
+		my $filename = $tabla->{nombre} . '.json';
+		open(my $fh, '>', $filename) or die "Could not open file '$filename' $!";
+		print $fh $tabla->{json};
+		close $fh;
 	}
+}
+
+sub agregarEnfrentamientoACompetidor {
+	my ($competidores, $enfrentamiento) = @_;
+
+	my $participantes = $enfrentamiento->{participantes};
+
+	foreach my $participante (@$participantes) {
+		my $competidor = first { $_->{id_competidor} == $participante->{id_competidor} } @$competidores;
+		push(@{$competidor->{enfrentamientos}}, {
+			id_campeonato => $enfrentamiento->{id_campeonato},
+			id_enfrentamiento => $enfrentamiento->{id_enfrentamiento},
+			resultoGanador => $participante->{resultoGanador}
+		});
+	}
+}
+
+sub crearMedallero {
+	my $campeonatos = shift;
+
+	my $medallero = [];
+	push (@$medallero, { id_modalidad => 1, medallas => [] });
+
+	for (my $id_modalidad = 2; $id_modalidad <= scalar @MODALIDADES_NOMBRES; $id_modalidad++) {
+		# la modalidad 1 es por enfrentamientos
+
+		my $medallero_modalidad = { id_modalidad => $id_modalidad, medallas => [] };
+		my $medallas = $medallero_modalidad->{medallas};
+
+		foreach my $campeonato (@$campeonatos) {
+			my $inscriptos = $campeonato->{inscriptos};
+			my $random_id = int(rand(scalar @$inscriptos - 2)) + 1;
+			for (my $puesto = 1; $puesto <= 3; $puesto++) {
+				push (@$medallas, {
+					id_competidor => $inscriptos->[$random_id + $puesto - 1],
+					id_campeonato => $campeonato->{id_campeonato},
+					puesto => $puesto,
+				});
+			}
+		}
+		push (@$medallero, $medallero_modalidad);
+	}
+
+	return $medallero;
+}
+
+
+sub crearEnfrentamientos {
+	my ($campeonatos, $competidores, $medallero) = @_;
+
+	my $enfrentamientos = [];
+	my $id_enfrentamiento = 1;
+
+	my $medallero_enfrentamientos = first { $_->{id_modalidad} == 1 } @$medallero;
+
+	foreach my $campeonato (@$campeonatos) {
+
+		my $inscriptos = $campeonato->{inscriptos};
+
+		# llave 1 (octavos)
+		for (my $i = 0; $i < 16; $i = $i+2 ) {
+			my $enfrentamiento = {
+				id_enfrentamiento => $id_enfrentamiento,
+				id_campeonato => $campeonato->{id_campeonato},
+				id_modalidad => 1,
+				llave => 1,
+				participantes => [ 
+					{ id_competidor => $inscriptos->[$i], resultoGanador => 'true' },
+					{ id_competidor => $inscriptos->[$i+1], resultoGanador => 'false' }
+				]
+			};
+			agregarEnfrentamientoACompetidor($competidores, $enfrentamiento);
+			$id_enfrentamiento++;
+			push (@$enfrentamientos, $enfrentamiento);
+		}
+
+		# llave 2 (cuartos)
+		for (my $i = 0; $i < 16; $i = $i+4 ) {
+			my $enfrentamiento = {
+				id_enfrentamiento => $id_enfrentamiento,
+				id_campeonato => $campeonato->{id_campeonato},
+				id_modalidad => 1,
+				llave => 2,
+				participantes => [ 
+					{ id_competidor => $inscriptos->[$i], resultoGanador => 'true' },
+					{ id_competidor => $inscriptos->[$i+2], resultoGanador => 'false' }
+				]
+			};
+			agregarEnfrentamientoACompetidor($competidores, $enfrentamiento);
+			$id_enfrentamiento++;
+			push (@$enfrentamientos, $enfrentamiento);
+		}
+
+		# llave 3 (semis)
+		for (my $i = 0; $i < 16; $i = $i+8 ) {
+			my $enfrentamiento = {
+				id_enfrentamiento => $id_enfrentamiento,
+				id_campeonato => $campeonato->{id_campeonato},
+				id_modalidad => 1,
+				llave => 3,
+				participantes => [ 
+					{ id_competidor => $inscriptos->[$i], resultoGanador => 'true' },
+					{ id_competidor => $inscriptos->[$i+4], resultoGanador => 'false' }
+				]
+			};
+			agregarEnfrentamientoACompetidor($competidores, $enfrentamiento);
+			$id_enfrentamiento++;
+			push (@$enfrentamientos, $enfrentamiento);
+		}
+
+		# llave 4 (final)
+		my $enfrentamiento = {
+			id_enfrentamiento => $id_enfrentamiento,
+			id_campeonato => $campeonato->{id_campeonato},
+			id_modalidad => 1,
+			llave => 4,
+			participantes => [ 
+				{ id_competidor => $inscriptos->[0], resultoGanador => 'true' },
+				{ id_competidor => $inscriptos->[8], resultoGanador => 'false' }
+			]
+		};
+		push(@{$medallero_enfrentamientos->{medallas}}, { 
+			id_competidor => $inscriptos->[0],
+			id_campeonato => $campeonato->{id_campeonato},
+			puesto => 1
+		});
+		push(@{$medallero_enfrentamientos->{medallas}}, { 
+			id_competidor => $inscriptos->[8],
+			id_campeonato => $campeonato->{id_campeonato},
+			puesto => 2
+		});
+		push(@{$medallero_enfrentamientos->{medallas}}, { 
+			id_competidor => $inscriptos->[4],
+			id_campeonato => $campeonato->{id_campeonato},
+			puesto => 3
+		});
+		agregarEnfrentamientoACompetidor($competidores, $enfrentamiento);
+		$id_enfrentamiento++;
+		push (@$enfrentamientos, $enfrentamiento);
+	}
+
+	return $enfrentamientos;
+}
+
+sub completarMedallistasPorEscuela {
+	my ($medallero, $competidores, $escuelas) = @_;
+
+	foreach my $medallero_modalidad (@$medallero) {
+		my $medallas = $medallero_modalidad->{medallas};
+
+		foreach my $medalla (@$medallas) {
+			my $id_competidor = $medalla->{id_competidor};
+			my $id_campeonato = $medalla->{id_campeonato};
+			my $competidor = first { $_->{id_competidor} == $id_competidor } @$competidores;
+			my $id_escuela = $competidor->{id_escuela};
+			my $escuela = first { $_->{id_escuela} == $id_escuela } @$escuelas;
+			push(@{$escuela->{medallistas}}, {
+				id_campeonato => $id_campeonato,
+				id_competidor => $id_competidor,
+			});
+		}
+	}
+}
+
+# Por defecto toma 19 campeonatos
+my $cantidad_campeonatos = $ARGV[0];
+if (defined($cantidad_campeonatos)) {
+	$MIN_YEAR = $MAX_YEAR - $cantidad_campeonatos + 1;
 }
 
 my $escuelas = [];
@@ -110,7 +303,6 @@ my $competidores = [];
 my $campeonatos = [];
 my $arbitros = [];
 my $modalidades = [];
-my $medallero = [];
 
 llenarEscuelas($escuelas);
 llenarCompetidores($competidores);
@@ -118,14 +310,11 @@ llenarModalidades($modalidades);
 llenarCampeonatos($campeonatos, $competidores);
 llenarArbitros($arbitros);
 
-# completar llenarCampeonatos
+my $medallero = crearMedallero($campeonatos);
 
-# crearEnfrentamientos
-# llenarEnfrentamientos
+my $enfrentamientos = crearEnfrentamientos($campeonatos, $competidores, $medallero);
 
-# crearMedallerosConEnfrentamientos
-# crearMedallerosSinEnfrentamientos
-# llenarMedalleros
+completarMedallistasPorEscuela($medallero, $competidores, $escuelas);
 
 my $escuelas_json = JSON::encode_json($escuelas);
 my $competidores_json = JSON::encode_json($competidores);
@@ -133,7 +322,16 @@ my $campeonatos_json = JSON::encode_json($campeonatos);
 my $arbitros_json = JSON::encode_json($arbitros);
 my $modalidades_json = JSON::encode_json($modalidades);
 my $medallero_json = JSON::encode_json($medallero);
+my $enfrentamientos_json = JSON::encode_json($enfrentamientos);
 
-imprimir($escuelas_json, $competidores_json, $campeonatos_json, $arbitros_json, $modalidades_json, $medallero_json);
+imprimir(
+		{ nombre => 'escuela', json => $escuelas_json },
+		{ nombre => 'competidor', json => $competidores_json },
+		{ nombre => 'campeonato', json => $campeonatos_json },
+		{ nombre => 'arbitro', json => $arbitros_json },
+		{ nombre => 'modalidad', json => $modalidades_json },
+		{ nombre => 'medalleroPorModalidad', json => $medallero_json },
+		{ nombre => 'enfrentamiento', json => $enfrentamientos_json }
+	);
 
 1;

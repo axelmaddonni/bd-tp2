@@ -1,0 +1,18 @@
+[
+    {
+        "id_modalidad": 1,
+        "nombre": "Combate"
+    },
+    {
+        "id_modalidad": 2,
+        "nombre": "Rotura de Potencias"
+    },
+    {
+        "nombre": "Salto",
+        "id_modalidad": 3
+    },
+    {
+        "id_modalidad": 4,
+        "nombre": "Formas"
+    }
+]

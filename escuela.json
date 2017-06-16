@@ -1,0 +1,1298 @@
+[
+    {
+        "nombre": "Bangkok",
+        "id_escuela": 1,
+        "medallistas": [
+            {
+                "id_competidor": "265",
+                "id_campeonato": "1"
+            }
+        ]
+    },
+    {
+        "id_escuela": 2,
+        "nombre": "Ankara",
+        "medallistas": [
+            {
+                "id_competidor": "902",
+                "id_campeonato": "8"
+            }
+        ]
+    },
+    {
+        "medallistas": [
+            {
+                "id_competidor": "70",
+                "id_campeonato": "6"
+            }
+        ],
+        "id_escuela": 3,
+        "nombre": "Moscow"
+    },
+    {
+        "nombre": "Tianjin",
+        "id_escuela": 4,
+        "medallistas": [
+            {
+                "id_competidor": "721",
+                "id_campeonato": "8"
+            },
+            {
+                "id_competidor": "143",
+                "id_campeonato": "13"
+            },
+            {
+                "id_campeonato": "19",
+                "id_competidor": "714"
+            },
+            {
+                "id_competidor": "714",
+                "id_campeonato": "19"
+            }
+        ]
+    },
+    {
+        "id_escuela": 5,
+        "nombre": "Lahore",
+        "medallistas": [
+            {
+                "id_competidor": "238",
+                "id_campeonato": "8"
+            }
+        ]
+    },
+    {
+        "medallistas": [
+            {
+                "id_campeonato": "15",
+                "id_competidor": "969"
+            },
+            {
+                "id_campeonato": "18",
+                "id_competidor": "582"
+            },
+            {
+                "id_campeonato": "5",
+                "id_competidor": "742"
+            }
+        ],
+        "nombre": "Shenzhen",
+        "id_escuela": 6
+    },
+    {
+        "medallistas": [
+            {
+                "id_competidor": "429",
+                "id_campeonato": "3"
+            },
+            {
+                "id_campeonato": "3",
+                "id_competidor": "468"
+            }
+        ],
+        "id_escuela": 7,
+        "nombre": "Chennai"
+    },
+    {
+        "medallistas": [
+            {
+                "id_campeonato": "12",
+                "id_competidor": "207"
+            }
+        ],
+        "id_escuela": 8,
+        "nombre": "New Taipei City"
+    },
+    {
+        "medallistas": [
+            {
+                "id_competidor": "689",
+                "id_campeonato": "9"
+            },
+            {
+                "id_competidor": "534",
+                "id_campeonato": "11"
+            },
+            {
+                "id_campeonato": "19",
+                "id_competidor": "645"
+            }
+        ],
+        "nombre": "Durban",
+        "id_escuela": 9
+    },
+    {
+        "id_escuela": 10,
+        "nombre": "Cairo",
+        "medallistas": [
+            {
+                "id_competidor": "69",
+                "id_campeonato": "12"
+            }
+        ]
+    },
+    {
+        "nombre": "Santiago",
+        "id_escuela": 11,
+        "medallistas": [
+            {
+                "id_campeonato": "15",
+                "id_competidor": "731"
+            }
+        ]
+    },
+    {
+        "medallistas": [
+            {
+                "id_campeonato": "6",
+                "id_competidor": "397"
+            },
+            {
+                "id_campeonato": "10",
+                "id_competidor": "91"
+            },
+            {
+                "id_competidor": "750",
+                "id_campeonato": "3"
+            },
+            {
+                "id_competidor": "716",
+                "id_campeonato": "14"
+            },
+            {
+                "id_campeonato": "9",
+                "id_competidor": "469"
+            }
+        ],
+        "nombre": "Beijing",
+        "id_escuela": 12
+    },
+    {
+        "medallistas": [
+            {
+                "id_competidor": "682",
+                "id_campeonato": "2"
+            },
+            {
+                "id_campeonato": "2",
+                "id_competidor": "437"
+            },
+            {
+                "id_competidor": "698",
+                "id_campeonato": "17"
+            },
+            {
+                "id_competidor": "437",
+                "id_campeonato": "17"
+            },
+            {
+                "id_competidor": "720",
+                "id_campeonato": "13"
+            },
+            {
+                "id_campeonato": "12",
+                "id_competidor": "62"
+            },
+            {
+                "id_competidor": "503",
+                "id_campeonato": "17"
+            }
+        ],
+        "nombre": "Hong Kong",
+        "id_escuela": 13
+    },
+    {
+        "nombre": "Suzhou",
+        "id_escuela": 14,
+        "medallistas": [
+            {
+                "id_campeonato": "3",
+                "id_competidor": "653"
+            },
+            {
+                "id_campeonato": "9",
+                "id_competidor": "563"
+            },
+            {
+                "id_competidor": "563",
+                "id_campeonato": "15"
+            },
+            {
+                "id_campeonato": "17",
+                "id_competidor": "422"
+            },
+            {
+                "id_competidor": "422",
+                "id_campeonato": "4"
+            },
+            {
+                "id_campeonato": "6",
+                "id_competidor": "802"
+            },
+            {
+                "id_campeonato": "7",
+                "id_competidor": "809"
+            }
+        ]
+    },
+    {
+        "medallistas": [
+            {
+                "id_campeonato": "4",
+                "id_competidor": "650"
+            },
+            {
+                "id_campeonato": "9",
+                "id_competidor": "368"
+            },
+            {
+                "id_campeonato": "10",
+                "id_competidor": "51"
+            },
+            {
+                "id_campeonato": "16",
+                "id_competidor": "685"
+            },
+            {
+                "id_competidor": "748",
+                "id_campeonato": "13"
+            }
+        ],
+        "nombre": "New York City",
+        "id_escuela": 15
+    },
+    {
+        "medallistas": [
+            {
+                "id_competidor": "828",
+                "id_campeonato": "3"
+            }
+        ],
+        "nombre": "Mumbai",
+        "id_escuela": 16
+    },
+    {
+        "id_escuela": 17,
+        "nombre": "Singapore",
+        "medallistas": [
+            {
+                "id_campeonato": "17",
+                "id_competidor": "374"
+            }
+        ]
+    },
+    {
+        "id_escuela": 18,
+        "nombre": "Guangzhou",
+        "medallistas": [
+            {
+                "id_campeonato": "8",
+                "id_competidor": "718"
+            },
+            {
+                "id_campeonato": "17",
+                "id_competidor": "931"
+            },
+            {
+                "id_campeonato": "2",
+                "id_competidor": "334"
+            },
+            {
+                "id_campeonato": "13",
+                "id_competidor": "221"
+            }
+        ]
+    },
+    {
+        "medallistas": [
+            {
+                "id_campeonato": "19",
+                "id_competidor": "953"
+            }
+        ],
+        "id_escuela": 19,
+        "nombre": "Los Angeles"
+    },
+    {
+        "id_escuela": 20,
+        "nombre": "Shenyang",
+        "medallistas": [
+            {
+                "id_campeonato": "4",
+                "id_competidor": "552"
+            },
+            {
+                "id_campeonato": "15",
+                "id_competidor": "831"
+            },
+            {
+                "id_campeonato": "1",
+                "id_competidor": "356"
+            },
+            {
+                "id_campeonato": "15",
+                "id_competidor": "190"
+            }
+        ]
+    },
+    {
+        "id_escuela": 21,
+        "nombre": "Jakarta",
+        "medallistas": [
+            {
+                "id_campeonato": "7",
+                "id_competidor": "572"
+            },
+            {
+                "id_competidor": "572",
+                "id_campeonato": "5"
+            }
+        ]
+    },
+    {
+        "medallistas": [
+            {
+                "id_campeonato": "16",
+                "id_competidor": "649"
+            },
+            {
+                "id_competidor": "93",
+                "id_campeonato": "1"
+            },
+            {
+                "id_campeonato": "4",
+                "id_competidor": "231"
+            },
+            {
+                "id_campeonato": "4",
+                "id_competidor": "993"
+            }
+        ],
+        "id_escuela": 22,
+        "nombre": "Ho Chi Minh City"
+    },
+    {
+        "id_escuela": 23,
+        "nombre": "Seoul",
+        "medallistas": [
+            {
+                "id_campeonato": "7",
+                "id_competidor": "717"
+            },
+            {
+                "id_competidor": "523",
+                "id_campeonato": "18"
+            },
+            {
+                "id_competidor": "822",
+                "id_campeonato": "18"
+            }
+        ]
+    },
+    {
+        "medallistas": [
+            {
+                "id_campeonato": "12",
+                "id_competidor": "775"
+            }
+        ],
+        "nombre": "Bogota",
+        "id_escuela": 24
+    },
+    {
+        "id_escuela": 25,
+        "nombre": "Alexandria",
+        "medallistas": [
+            {
+                "id_campeonato": "5",
+                "id_competidor": "899"
+            },
+            {
+                "id_competidor": "709",
+                "id_campeonato": "11"
+            },
+            {
+                "id_campeonato": "18",
+                "id_competidor": "709"
+            },
+            {
+                "id_campeonato": "19",
+                "id_competidor": "130"
+            },
+            {
+                "id_competidor": "90",
+                "id_campeonato": "2"
+            },
+            {
+                "id_competidor": "90",
+                "id_campeonato": "3"
+            },
+            {
+                "id_competidor": "824",
+                "id_campeonato": "7"
+            },
+            {
+                "id_campeonato": "7",
+                "id_competidor": "322"
+            },
+            {
+                "id_competidor": "709",
+                "id_campeonato": "18"
+            },
+            {
+                "id_campeonato": "7",
+                "id_competidor": "90"
+            }
+        ]
+    },
+    {
+        "id_escuela": 26,
+        "nombre": "Lima",
+        "medallistas": [
+            {
+                "id_campeonato": "2",
+                "id_competidor": "783"
+            },
+            {
+                "id_competidor": "605",
+                "id_campeonato": "3"
+            },
+            {
+                "id_campeonato": "6",
+                "id_competidor": "354"
+            }
+        ]
+    },
+    {
+        "id_escuela": 27,
+        "nombre": "Jaipur",
+        "medallistas": [
+            {
+                "id_competidor": "614",
+                "id_campeonato": "19"
+            },
+            {
+                "id_competidor": "885",
+                "id_campeonato": "12"
+            },
+            {
+                "id_competidor": "394",
+                "id_campeonato": "6"
+            },
+            {
+                "id_competidor": "306",
+                "id_campeonato": "10"
+            }
+        ]
+    },
+    {
+        "medallistas": [
+            {
+                "id_campeonato": "1",
+                "id_competidor": "326"
+            },
+            {
+                "id_campeonato": "18",
+                "id_competidor": "551"
+            },
+            {
+                "id_competidor": "376",
+                "id_campeonato": "11"
+            },
+            {
+                "id_competidor": "474",
+                "id_campeonato": "11"
+            },
+            {
+                "id_campeonato": "15",
+                "id_competidor": "71"
+            },
+            {
+                "id_competidor": "324",
+                "id_campeonato": "18"
+            }
+        ],
+        "nombre": "Delhi",
+        "id_escuela": 28
+    },
+    {
+        "id_escuela": 29,
+        "nombre": "London",
+        "medallistas": [
+            {
+                "id_competidor": "528",
+                "id_campeonato": "2"
+            },
+            {
+                "id_campeonato": "13",
+                "id_competidor": "255"
+            },
+            {
+                "id_competidor": "532",
+                "id_campeonato": "18"
+            },
+            {
+                "id_campeonato": "12",
+                "id_competidor": "532"
+            }
+        ]
+    },
+    {
+        "medallistas": [
+            {
+                "id_campeonato": "13",
+                "id_competidor": "907"
+            }
+        ],
+        "nombre": "Yokohama",
+        "id_escuela": 30
+    },
+    {
+        "nombre": "Riyadh",
+        "id_escuela": 31,
+        "medallistas": [
+            {
+                "id_competidor": "600",
+                "id_campeonato": "12"
+            },
+            {
+                "id_campeonato": "4",
+                "id_competidor": "648"
+            },
+            {
+                "id_competidor": "791",
+                "id_campeonato": "8"
+            },
+            {
+                "id_campeonato": "15",
+                "id_competidor": "20"
+            },
+            {
+                "id_campeonato": "14",
+                "id_competidor": "648"
+            }
+        ]
+    },
+    {
+        "id_escuela": 32,
+        "nombre": "Abidjan",
+        "medallistas": [
+            {
+                "id_campeonato": "4",
+                "id_competidor": "641"
+            },
+            {
+                "id_competidor": "304",
+                "id_campeonato": "2"
+            },
+            {
+                "id_campeonato": "7",
+                "id_competidor": "613"
+            },
+            {
+                "id_campeonato": "14",
+                "id_competidor": "834"
+            },
+            {
+                "id_competidor": "834",
+                "id_campeonato": "8"
+            },
+            {
+                "id_campeonato": "13",
+                "id_competidor": "834"
+            }
+        ]
+    },
+    {
+        "medallistas": [
+            {
+                "id_competidor": "136",
+                "id_campeonato": "16"
+            },
+            {
+                "id_competidor": "483",
+                "id_campeonato": "18"
+            },
+            {
+                "id_competidor": "539",
+                "id_campeonato": "19"
+            },
+            {
+                "id_competidor": "624",
+                "id_campeonato": "8"
+            },
+            {
+                "id_campeonato": "9",
+                "id_competidor": "136"
+            },
+            {
+                "id_competidor": "67",
+                "id_campeonato": "4"
+            },
+            {
+                "id_competidor": "688",
+                "id_campeonato": "12"
+            },
+            {
+                "id_competidor": "287",
+                "id_campeonato": "17"
+            },
+            {
+                "id_campeonato": "10",
+                "id_competidor": "137"
+            }
+        ],
+        "nombre": "Yangon",
+        "id_escuela": 33
+    },
+    {
+        "nombre": "Pune",
+        "id_escuela": 34,
+        "medallistas": [
+            {
+                "id_campeonato": "17",
+                "id_competidor": "162"
+            },
+            {
+                "id_campeonato": "14",
+                "id_competidor": "99"
+            },
+            {
+                "id_campeonato": "3",
+                "id_competidor": "392"
+            }
+        ]
+    },
+    {
+        "medallistas": [
+            {
+                "id_competidor": "732",
+                "id_campeonato": "6"
+            },
+            {
+                "id_campeonato": "6",
+                "id_competidor": "936"
+            },
+            {
+                "id_competidor": "197",
+                "id_campeonato": "11"
+            }
+        ],
+        "id_escuela": 35,
+        "nombre": "Karachi"
+    },
+    {
+        "medallistas": [
+            {
+                "id_competidor": "73",
+                "id_campeonato": "9"
+            },
+            {
+                "id_campeonato": "10",
+                "id_competidor": "764"
+            },
+            {
+                "id_campeonato": "15",
+                "id_competidor": "384"
+            }
+        ],
+        "nombre": "Pyongyang",
+        "id_escuela": 36
+    },
+    {
+        "id_escuela": 37,
+        "nombre": "Cape Town",
+        "medallistas": [
+            {
+                "id_competidor": "985",
+                "id_campeonato": "14"
+            },
+            {
+                "id_competidor": "654",
+                "id_campeonato": "16"
+            }
+        ]
+    },
+    {
+        "medallistas": [
+            {
+                "id_competidor": "868",
+                "id_campeonato": "16"
+            },
+            {
+                "id_campeonato": "5",
+                "id_competidor": "959"
+            },
+            {
+                "id_campeonato": "9",
+                "id_competidor": "331"
+            },
+            {
+                "id_competidor": "872",
+                "id_campeonato": "10"
+            }
+        ],
+        "nombre": "Addis Ababa",
+        "id_escuela": 38
+    },
+    {
+        "nombre": "Tehran",
+        "id_escuela": 39,
+        "medallistas": [
+            {
+                "id_campeonato": "5",
+                "id_competidor": "780"
+            },
+            {
+                "id_campeonato": "11",
+                "id_competidor": "827"
+            },
+            {
+                "id_campeonato": "14",
+                "id_competidor": "96"
+            },
+            {
+                "id_competidor": "96",
+                "id_campeonato": "16"
+            }
+        ]
+    },
+    {
+        "medallistas": [
+            {
+                "id_campeonato": "1",
+                "id_competidor": "88"
+            },
+            {
+                "id_campeonato": "8",
+                "id_competidor": "395"
+            },
+            {
+                "id_campeonato": "16",
+                "id_competidor": "88"
+            },
+            {
+                "id_competidor": "396",
+                "id_campeonato": "9"
+            },
+            {
+                "id_competidor": "12",
+                "id_campeonato": "16"
+            },
+            {
+                "id_competidor": "690",
+                "id_campeonato": "6"
+            }
+        ],
+        "id_escuela": 40,
+        "nombre": "Busan"
+    },
+    {
+        "medallistas": [
+            {
+                "id_competidor": "447",
+                "id_campeonato": "14"
+            },
+            {
+                "id_competidor": "257",
+                "id_campeonato": "6"
+            },
+            {
+                "id_campeonato": "13",
+                "id_competidor": "387"
+            },
+            {
+                "id_competidor": "958",
+                "id_campeonato": "16"
+            }
+        ],
+        "id_escuela": 41,
+        "nombre": "Mexico City"
+    },
+    {
+        "nombre": "Baghdad",
+        "id_escuela": 42,
+        "medallistas": [
+            {
+                "id_competidor": "570",
+                "id_campeonato": "8"
+            },
+            {
+                "id_competidor": "612",
+                "id_campeonato": "10"
+            },
+            {
+                "id_competidor": "634",
+                "id_campeonato": "1"
+            },
+            {
+                "id_competidor": "840",
+                "id_campeonato": "3"
+            },
+            {
+                "id_campeonato": "11",
+                "id_competidor": "24"
+            },
+            {
+                "id_campeonato": "18",
+                "id_competidor": "777"
+            },
+            {
+                "id_competidor": "981",
+                "id_campeonato": "11"
+            },
+            {
+                "id_competidor": "24",
+                "id_campeonato": "8"
+            }
+        ]
+    },
+    {
+        "id_escuela": 43,
+        "nombre": "Tokyo",
+        "medallistas": [
+            {
+                "id_campeonato": "8",
+                "id_competidor": "355"
+            },
+            {
+                "id_campeonato": "11",
+                "id_competidor": "330"
+            },
+            {
+                "id_competidor": "355",
+                "id_campeonato": "11"
+            },
+            {
+                "id_competidor": "227",
+                "id_campeonato": "5"
+            },
+            {
+                "id_competidor": "355",
+                "id_campeonato": "8"
+            },
+            {
+                "id_competidor": "213",
+                "id_campeonato": "9"
+            }
+        ]
+    },
+    {
+        "medallistas": [
+            {
+                "id_campeonato": "17",
+                "id_competidor": "663"
+            },
+            {
+                "id_competidor": "72",
+                "id_campeonato": "14"
+            }
+        ],
+        "nombre": "Shanghai",
+        "id_escuela": 44
+    },
+    {
+        "medallistas": [
+            {
+                "id_campeonato": "5",
+                "id_competidor": "318"
+            },
+            {
+                "id_competidor": "169",
+                "id_campeonato": "7"
+            },
+            {
+                "id_competidor": "707",
+                "id_campeonato": "13"
+            }
+        ],
+        "nombre": "Rio de Janeiro",
+        "id_escuela": 45
+    },
+    {
+        "nombre": "Dongguan",
+        "id_escuela": 46,
+        "medallistas": [
+            {
+                "id_competidor": "254",
+                "id_campeonato": "4"
+            },
+            {
+                "id_competidor": "302",
+                "id_campeonato": "4"
+            },
+            {
+                "id_campeonato": "15",
+                "id_competidor": "858"
+            },
+            {
+                "id_competidor": "302",
+                "id_campeonato": "10"
+            }
+        ]
+    },
+    {
+        "medallistas": [
+            {
+                "id_campeonato": "14",
+                "id_competidor": "305"
+            },
+            {
+                "id_campeonato": "1",
+                "id_competidor": "284"
+            },
+            {
+                "id_competidor": "393",
+                "id_campeonato": "19"
+            },
+            {
+                "id_campeonato": "2",
+                "id_competidor": "480"
+            },
+            {
+                "id_competidor": "393",
+                "id_campeonato": "19"
+            }
+        ],
+        "nombre": "Madrid",
+        "id_escuela": 47
+    },
+    {
+        "nombre": "Kinshasa",
+        "id_escuela": 48,
+        "medallistas": [
+            {
+                "id_competidor": "795",
+                "id_campeonato": "3"
+            },
+            {
+                "id_campeonato": "11",
+                "id_competidor": "557"
+            },
+            {
+                "id_campeonato": "19",
+                "id_competidor": "435"
+            },
+            {
+                "id_campeonato": "3",
+                "id_competidor": "676"
+            },
+            {
+                "id_competidor": "974",
+                "id_campeonato": "15"
+            },
+            {
+                "id_competidor": "435",
+                "id_campeonato": "19"
+            },
+            {
+                "id_campeonato": "14",
+                "id_competidor": "527"
+            }
+        ]
+    },
+    {
+        "nombre": "Lagos",
+        "id_escuela": 49,
+        "medallistas": [
+            {
+                "id_campeonato": "2",
+                "id_competidor": "722"
+            },
+            {
+                "id_campeonato": "5",
+                "id_competidor": "113"
+            },
+            {
+                "id_campeonato": "5",
+                "id_competidor": "910"
+            },
+            {
+                "id_campeonato": "1",
+                "id_competidor": "269"
+            }
+        ]
+    },
+    {
+        "id_escuela": 50,
+        "nombre": "Nairobi",
+        "medallistas": [
+            {
+                "id_campeonato": "10",
+                "id_competidor": "499"
+            },
+            {
+                "id_campeonato": "4",
+                "id_competidor": "914"
+            },
+            {
+                "id_campeonato": "12",
+                "id_competidor": "328"
+            }
+        ]
+    },
+    {
+        "medallistas": [
+            {
+                "id_competidor": "174",
+                "id_campeonato": "12"
+            },
+            {
+                "id_campeonato": "10",
+                "id_competidor": "342"
+            },
+            {
+                "id_campeonato": "10",
+                "id_competidor": "178"
+            },
+            {
+                "id_campeonato": "13",
+                "id_competidor": "54"
+            }
+        ],
+        "nombre": "Bangalore",
+        "id_escuela": 51
+    },
+    {
+        "medallistas": [
+            {
+                "id_campeonato": "1",
+                "id_competidor": "923"
+            },
+            {
+                "id_competidor": "725",
+                "id_campeonato": "7"
+            }
+        ],
+        "nombre": "Dhaka",
+        "id_escuela": 52
+    },
+    {
+        "medallistas": [
+            {
+                "id_campeonato": "7",
+                "id_competidor": "941"
+            },
+            {
+                "id_competidor": "757",
+                "id_campeonato": "15"
+            },
+            {
+                "id_campeonato": "1",
+                "id_competidor": "757"
+            }
+        ],
+        "id_escuela": 53,
+        "nombre": "Berlin"
+    },
+    {
+        "medallistas": [
+            {
+                "id_competidor": "823",
+                "id_campeonato": "7"
+            },
+            {
+                "id_campeonato": "13",
+                "id_competidor": "637"
+            },
+            {
+                "id_competidor": "823",
+                "id_campeonato": "14"
+            },
+            {
+                "id_campeonato": "2",
+                "id_competidor": "43"
+            },
+            {
+                "id_campeonato": "2",
+                "id_competidor": "496"
+            },
+            {
+                "id_competidor": "832",
+                "id_campeonato": "17"
+            }
+        ],
+        "nombre": "Istanbul",
+        "id_escuela": 54
+    },
+    {
+        "medallistas": [
+            {
+                "id_campeonato": "6",
+                "id_competidor": "146"
+            },
+            {
+                "id_competidor": "172",
+                "id_campeonato": "16"
+            }
+        ],
+        "id_escuela": 55,
+        "nombre": "Johannesburg"
+    },
+    {
+        "medallistas": [
+            {
+                "id_competidor": "895",
+                "id_campeonato": "3"
+            },
+            {
+                "id_competidor": "623",
+                "id_campeonato": "11"
+            }
+        ],
+        "id_escuela": 56,
+        "nombre": "Ahmedabad"
+    },
+    {
+        "id_escuela": 57,
+        "nombre": "Casablanca",
+        "medallistas": [
+            {
+                "id_competidor": "300",
+                "id_campeonato": "5"
+            },
+            {
+                "id_campeonato": "17",
+                "id_competidor": "366"
+            },
+            {
+                "id_campeonato": "18",
+                "id_competidor": "961"
+            }
+        ]
+    },
+    {
+        "medallistas": [
+            {
+                "id_campeonato": "14",
+                "id_competidor": "733"
+            }
+        ],
+        "nombre": "Sao Paulo",
+        "id_escuela": 58
+    },
+    {
+        "medallistas": [
+            {
+                "id_campeonato": "16",
+                "id_competidor": "618"
+            },
+            {
+                "id_campeonato": "19",
+                "id_competidor": "108"
+            }
+        ],
+        "id_escuela": 59,
+        "nombre": "Jeddah"
+    },
+    {
+        "id_escuela": 60,
+        "nombre": "Hanoi",
+        "medallistas": [
+            {
+                "id_competidor": "488",
+                "id_campeonato": "13"
+            }
+        ]
+    },
+    {
+        "medallistas": [
+            {
+                "id_campeonato": "2",
+                "id_competidor": "176"
+            }
+        ],
+        "id_escuela": 61,
+        "nombre": "Hyderabad"
+    },
+    {
+        "medallistas": [
+            {
+                "id_campeonato": "5",
+                "id_competidor": "774"
+            },
+            {
+                "id_campeonato": "1",
+                "id_competidor": "82"
+            },
+            {
+                "id_campeonato": "12",
+                "id_competidor": "83"
+            },
+            {
+                "id_campeonato": "4",
+                "id_competidor": "692"
+            },
+            {
+                "id_competidor": "82",
+                "id_campeonato": "18"
+            },
+            {
+                "id_competidor": "467",
+                "id_campeonato": "5"
+            },
+            {
+                "id_campeonato": "6",
+                "id_competidor": "774"
+            },
+            {
+                "id_campeonato": "9",
+                "id_competidor": "44"
+            },
+            {
+                "id_campeonato": "12",
+                "id_competidor": "504"
+            }
+        ],
+        "nombre": "Surat",
+        "id_escuela": 62
+    },
+    {
+        "medallistas": [
+            {
+                "id_campeonato": "10",
+                "id_competidor": "502"
+            },
+            {
+                "id_competidor": "606",
+                "id_campeonato": "1"
+            }
+        ],
+        "id_escuela": 63,
+        "nombre": "Kolkata"
+    },
+    {
+        "id_escuela": 64,
+        "nombre": "Saint Petersburg",
+        "medallistas": [
+            {
+                "id_competidor": "830",
+                "id_campeonato": "6"
+            },
+            {
+                "id_campeonato": "15",
+                "id_competidor": "660"
+            },
+            {
+                "id_campeonato": "9",
+                "id_competidor": "814"
+            },
+            {
+                "id_campeonato": "9",
+                "id_competidor": "573"
+            },
+            {
+                "id_campeonato": "17",
+                "id_competidor": "590"
+            },
+            {
+                "id_competidor": "590",
+                "id_campeonato": "7"
+            },
+            {
+                "id_competidor": "943",
+                "id_campeonato": "16"
+            }
+        ]
+    }
+]

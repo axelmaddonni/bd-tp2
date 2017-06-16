@@ -1,0 +1,4562 @@
+[
+    {
+        "id_enfrentamiento": 1,
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "id_competidor": "88",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "271"
+            }
+        ],
+        "id_campeonato": "1"
+    },
+    {
+        "id_enfrentamiento": 2,
+        "id_campeonato": "1",
+        "llave": 1,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "983"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "651"
+            }
+        ]
+    },
+    {
+        "id_enfrentamiento": 3,
+        "participantes": [
+            {
+                "id_competidor": "326",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "33",
+                "resultoGanador": "false"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1,
+        "id_campeonato": "1"
+    },
+    {
+        "id_enfrentamiento": 4,
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "912"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "911"
+            }
+        ],
+        "id_campeonato": "1"
+    },
+    {
+        "id_enfrentamiento": 5,
+        "id_campeonato": "1",
+        "participantes": [
+            {
+                "id_competidor": "265",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "816",
+                "resultoGanador": "false"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1
+    },
+    {
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "87"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "856"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1,
+        "id_campeonato": "1",
+        "id_enfrentamiento": 6
+    },
+    {
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "id_competidor": "738",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "387"
+            }
+        ],
+        "id_campeonato": "1",
+        "id_enfrentamiento": 7
+    },
+    {
+        "id_enfrentamiento": 8,
+        "id_campeonato": "1",
+        "participantes": [
+            {
+                "id_competidor": "833",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "572"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1
+    },
+    {
+        "id_enfrentamiento": 9,
+        "id_campeonato": "1",
+        "llave": 2,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "88",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "983"
+            }
+        ]
+    },
+    {
+        "id_campeonato": "1",
+        "llave": 2,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "326"
+            },
+            {
+                "id_competidor": "912",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_enfrentamiento": 10
+    },
+    {
+        "id_enfrentamiento": 11,
+        "id_modalidad": 1,
+        "llave": 2,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "265"
+            },
+            {
+                "id_competidor": "87",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_campeonato": "1"
+    },
+    {
+        "id_enfrentamiento": 12,
+        "llave": 2,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "738",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "833",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_campeonato": "1"
+    },
+    {
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "88"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "326"
+            }
+        ],
+        "llave": 3,
+        "id_modalidad": 1,
+        "id_campeonato": "1",
+        "id_enfrentamiento": 13
+    },
+    {
+        "id_campeonato": "1",
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "265"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "738"
+            }
+        ],
+        "llave": 3,
+        "id_modalidad": 1,
+        "id_enfrentamiento": 14
+    },
+    {
+        "id_campeonato": "1",
+        "llave": 4,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "88"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "265"
+            }
+        ],
+        "id_enfrentamiento": 15
+    },
+    {
+        "participantes": [
+            {
+                "id_competidor": "682",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "907"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1,
+        "id_campeonato": "2",
+        "id_enfrentamiento": 16
+    },
+    {
+        "id_enfrentamiento": 17,
+        "participantes": [
+            {
+                "id_competidor": "833",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "572"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1,
+        "id_campeonato": "2"
+    },
+    {
+        "llave": 1,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "722"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "823"
+            }
+        ],
+        "id_campeonato": "2",
+        "id_enfrentamiento": 18
+    },
+    {
+        "id_enfrentamiento": 19,
+        "id_campeonato": "2",
+        "participantes": [
+            {
+                "id_competidor": "72",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "910",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1
+    },
+    {
+        "id_campeonato": "2",
+        "participantes": [
+            {
+                "id_competidor": "528",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "865"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1,
+        "id_enfrentamiento": 20
+    },
+    {
+        "id_enfrentamiento": 21,
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "200"
+            },
+            {
+                "id_competidor": "941",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_campeonato": "2"
+    },
+    {
+        "id_enfrentamiento": 22,
+        "participantes": [
+            {
+                "id_competidor": "59",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "755",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1,
+        "id_campeonato": "2"
+    },
+    {
+        "id_enfrentamiento": 23,
+        "id_campeonato": "2",
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "88"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "685"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1
+    },
+    {
+        "id_enfrentamiento": 24,
+        "id_campeonato": "2",
+        "llave": 2,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "682",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "833",
+                "resultoGanador": "false"
+            }
+        ]
+    },
+    {
+        "id_enfrentamiento": 25,
+        "id_modalidad": 1,
+        "llave": 2,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "722"
+            },
+            {
+                "id_competidor": "72",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_campeonato": "2"
+    },
+    {
+        "id_enfrentamiento": 26,
+        "id_campeonato": "2",
+        "participantes": [
+            {
+                "id_competidor": "528",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "200",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 2
+    },
+    {
+        "id_campeonato": "2",
+        "llave": 2,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "59"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "88"
+            }
+        ],
+        "id_enfrentamiento": 27
+    },
+    {
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "682"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "722"
+            }
+        ],
+        "llave": 3,
+        "id_modalidad": 1,
+        "id_campeonato": "2",
+        "id_enfrentamiento": 28
+    },
+    {
+        "id_campeonato": "2",
+        "participantes": [
+            {
+                "id_competidor": "528",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "59"
+            }
+        ],
+        "llave": 3,
+        "id_modalidad": 1,
+        "id_enfrentamiento": 29
+    },
+    {
+        "id_enfrentamiento": 30,
+        "llave": 4,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "682"
+            },
+            {
+                "id_competidor": "528",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_campeonato": "2"
+    },
+    {
+        "id_enfrentamiento": 31,
+        "id_campeonato": "3",
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "895"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "722"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1
+    },
+    {
+        "id_enfrentamiento": 32,
+        "id_campeonato": "3",
+        "participantes": [
+            {
+                "id_competidor": "572",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "742",
+                "resultoGanador": "false"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1
+    },
+    {
+        "id_enfrentamiento": 33,
+        "id_campeonato": "3",
+        "llave": 1,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "653",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "823",
+                "resultoGanador": "false"
+            }
+        ]
+    },
+    {
+        "id_enfrentamiento": 34,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "251"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "865"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1,
+        "id_campeonato": "3"
+    },
+    {
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "795"
+            },
+            {
+                "id_competidor": "730",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1,
+        "id_campeonato": "3",
+        "id_enfrentamiento": 35
+    },
+    {
+        "id_enfrentamiento": 36,
+        "llave": 1,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "755"
+            },
+            {
+                "id_competidor": "514",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_campeonato": "3"
+    },
+    {
+        "id_enfrentamiento": 37,
+        "llave": 1,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "949",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "406"
+            }
+        ],
+        "id_campeonato": "3"
+    },
+    {
+        "id_campeonato": "3",
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "id_competidor": "633",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "200",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_enfrentamiento": 38
+    },
+    {
+        "id_enfrentamiento": 39,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "895"
+            },
+            {
+                "id_competidor": "572",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 2,
+        "id_campeonato": "3"
+    },
+    {
+        "id_enfrentamiento": 40,
+        "id_campeonato": "3",
+        "id_modalidad": 1,
+        "llave": 2,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "653"
+            },
+            {
+                "id_competidor": "251",
+                "resultoGanador": "false"
+            }
+        ]
+    },
+    {
+        "id_enfrentamiento": 41,
+        "id_campeonato": "3",
+        "participantes": [
+            {
+                "id_competidor": "795",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "755"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 2
+    },
+    {
+        "id_campeonato": "3",
+        "llave": 2,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "949",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "633",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_enfrentamiento": 42
+    },
+    {
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "895"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "653"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 3,
+        "id_campeonato": "3",
+        "id_enfrentamiento": 43
+    },
+    {
+        "id_enfrentamiento": 44,
+        "id_modalidad": 1,
+        "llave": 3,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "795"
+            },
+            {
+                "id_competidor": "949",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_campeonato": "3"
+    },
+    {
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "895"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "795"
+            }
+        ],
+        "llave": 4,
+        "id_modalidad": 1,
+        "id_campeonato": "3",
+        "id_enfrentamiento": 45
+    },
+    {
+        "id_campeonato": "4",
+        "llave": 1,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "650"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "661"
+            }
+        ],
+        "id_enfrentamiento": 46
+    },
+    {
+        "id_enfrentamiento": 47,
+        "id_campeonato": "4",
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "767"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "458"
+            }
+        ]
+    },
+    {
+        "id_enfrentamiento": 48,
+        "participantes": [
+            {
+                "id_competidor": "641",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "708"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1,
+        "id_campeonato": "4"
+    },
+    {
+        "id_enfrentamiento": 49,
+        "llave": 1,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "930",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "675"
+            }
+        ],
+        "id_campeonato": "4"
+    },
+    {
+        "id_campeonato": "4",
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "254"
+            },
+            {
+                "id_competidor": "121",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1,
+        "id_enfrentamiento": 50
+    },
+    {
+        "id_enfrentamiento": 51,
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "841"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "73"
+            }
+        ],
+        "id_campeonato": "4"
+    },
+    {
+        "id_enfrentamiento": 52,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "38"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "224"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1,
+        "id_campeonato": "4"
+    },
+    {
+        "id_enfrentamiento": 53,
+        "id_campeonato": "4",
+        "participantes": [
+            {
+                "id_competidor": "399",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "759",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1
+    },
+    {
+        "id_campeonato": "4",
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "650"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "767"
+            }
+        ],
+        "llave": 2,
+        "id_modalidad": 1,
+        "id_enfrentamiento": 54
+    },
+    {
+        "id_campeonato": "4",
+        "id_modalidad": 1,
+        "llave": 2,
+        "participantes": [
+            {
+                "id_competidor": "641",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "930"
+            }
+        ],
+        "id_enfrentamiento": 55
+    },
+    {
+        "id_enfrentamiento": 56,
+        "id_campeonato": "4",
+        "participantes": [
+            {
+                "id_competidor": "254",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "841",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 2
+    },
+    {
+        "id_enfrentamiento": 57,
+        "id_campeonato": "4",
+        "participantes": [
+            {
+                "id_competidor": "38",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "399",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 2
+    },
+    {
+        "id_enfrentamiento": 58,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "650"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "641"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 3,
+        "id_campeonato": "4"
+    },
+    {
+        "id_enfrentamiento": 59,
+        "id_modalidad": 1,
+        "llave": 3,
+        "participantes": [
+            {
+                "id_competidor": "254",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "38"
+            }
+        ],
+        "id_campeonato": "4"
+    },
+    {
+        "id_enfrentamiento": 60,
+        "id_modalidad": 1,
+        "llave": 4,
+        "participantes": [
+            {
+                "id_competidor": "650",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "254"
+            }
+        ],
+        "id_campeonato": "4"
+    },
+    {
+        "participantes": [
+            {
+                "id_competidor": "899",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "97",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1,
+        "id_campeonato": "5",
+        "id_enfrentamiento": 61
+    },
+    {
+        "id_enfrentamiento": 62,
+        "id_campeonato": "5",
+        "participantes": [
+            {
+                "id_competidor": "690",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "988",
+                "resultoGanador": "false"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1
+    },
+    {
+        "id_campeonato": "5",
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "774"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "103"
+            }
+        ],
+        "id_enfrentamiento": 63
+    },
+    {
+        "id_enfrentamiento": 64,
+        "id_campeonato": "5",
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "id_competidor": "146",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "116"
+            }
+        ]
+    },
+    {
+        "id_enfrentamiento": 65,
+        "id_campeonato": "5",
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "318"
+            },
+            {
+                "id_competidor": "696",
+                "resultoGanador": "false"
+            }
+        ]
+    },
+    {
+        "id_enfrentamiento": 66,
+        "id_campeonato": "5",
+        "participantes": [
+            {
+                "id_competidor": "378",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "439"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1
+    },
+    {
+        "id_enfrentamiento": 67,
+        "id_campeonato": "5",
+        "participantes": [
+            {
+                "id_competidor": "807",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "27",
+                "resultoGanador": "false"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1
+    },
+    {
+        "id_enfrentamiento": 68,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "727"
+            },
+            {
+                "id_competidor": "507",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1,
+        "id_campeonato": "5"
+    },
+    {
+        "id_enfrentamiento": 69,
+        "id_campeonato": "5",
+        "llave": 2,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "899",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "690"
+            }
+        ]
+    },
+    {
+        "id_enfrentamiento": 70,
+        "id_campeonato": "5",
+        "llave": 2,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "774",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "146"
+            }
+        ]
+    },
+    {
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "318"
+            },
+            {
+                "id_competidor": "378",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 2,
+        "id_campeonato": "5",
+        "id_enfrentamiento": 71
+    },
+    {
+        "id_campeonato": "5",
+        "participantes": [
+            {
+                "id_competidor": "807",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "727",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 2,
+        "id_enfrentamiento": 72
+    },
+    {
+        "id_enfrentamiento": 73,
+        "id_campeonato": "5",
+        "llave": 3,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "899",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "774"
+            }
+        ]
+    },
+    {
+        "id_enfrentamiento": 74,
+        "id_campeonato": "5",
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "318"
+            },
+            {
+                "id_competidor": "807",
+                "resultoGanador": "false"
+            }
+        ],
+        "llave": 3,
+        "id_modalidad": 1
+    },
+    {
+        "id_enfrentamiento": 75,
+        "participantes": [
+            {
+                "id_competidor": "899",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "318",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 4,
+        "id_campeonato": "5"
+    },
+    {
+        "llave": 1,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "397"
+            },
+            {
+                "id_competidor": "883",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_campeonato": "6",
+        "id_enfrentamiento": 76
+    },
+    {
+        "id_campeonato": "6",
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "430"
+            },
+            {
+                "id_competidor": "560",
+                "resultoGanador": "false"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1,
+        "id_enfrentamiento": 77
+    },
+    {
+        "participantes": [
+            {
+                "id_competidor": "70",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "940",
+                "resultoGanador": "false"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1,
+        "id_campeonato": "6",
+        "id_enfrentamiento": 78
+    },
+    {
+        "id_enfrentamiento": 79,
+        "id_campeonato": "6",
+        "participantes": [
+            {
+                "id_competidor": "126",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "198"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1
+    },
+    {
+        "id_campeonato": "6",
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "830"
+            },
+            {
+                "id_competidor": "196",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1,
+        "id_enfrentamiento": 80
+    },
+    {
+        "llave": 1,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "898"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "138"
+            }
+        ],
+        "id_campeonato": "6",
+        "id_enfrentamiento": 81
+    },
+    {
+        "llave": 1,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "866",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "579",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_campeonato": "6",
+        "id_enfrentamiento": 82
+    },
+    {
+        "id_campeonato": "6",
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "id_competidor": "336",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "636"
+            }
+        ],
+        "id_enfrentamiento": 83
+    },
+    {
+        "id_enfrentamiento": 84,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "397"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "430"
+            }
+        ],
+        "llave": 2,
+        "id_modalidad": 1,
+        "id_campeonato": "6"
+    },
+    {
+        "id_campeonato": "6",
+        "participantes": [
+            {
+                "id_competidor": "70",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "126"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 2,
+        "id_enfrentamiento": 85
+    },
+    {
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "830"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "898"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 2,
+        "id_campeonato": "6",
+        "id_enfrentamiento": 86
+    },
+    {
+        "id_enfrentamiento": 87,
+        "id_campeonato": "6",
+        "participantes": [
+            {
+                "id_competidor": "866",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "336"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 2
+    },
+    {
+        "id_campeonato": "6",
+        "participantes": [
+            {
+                "id_competidor": "397",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "70",
+                "resultoGanador": "false"
+            }
+        ],
+        "llave": 3,
+        "id_modalidad": 1,
+        "id_enfrentamiento": 88
+    },
+    {
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "830"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "866"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 3,
+        "id_campeonato": "6",
+        "id_enfrentamiento": 89
+    },
+    {
+        "id_modalidad": 1,
+        "llave": 4,
+        "participantes": [
+            {
+                "id_competidor": "397",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "830"
+            }
+        ],
+        "id_campeonato": "6",
+        "id_enfrentamiento": 90
+    },
+    {
+        "id_campeonato": "7",
+        "participantes": [
+            {
+                "id_competidor": "823",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "733",
+                "resultoGanador": "false"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1,
+        "id_enfrentamiento": 91
+    },
+    {
+        "id_enfrentamiento": 92,
+        "id_campeonato": "7",
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "910"
+            },
+            {
+                "id_competidor": "907",
+                "resultoGanador": "false"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1
+    },
+    {
+        "id_enfrentamiento": 93,
+        "llave": 1,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "572"
+            },
+            {
+                "id_competidor": "895",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_campeonato": "7"
+    },
+    {
+        "id_enfrentamiento": 94,
+        "participantes": [
+            {
+                "id_competidor": "406",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "200",
+                "resultoGanador": "false"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1,
+        "id_campeonato": "7"
+    },
+    {
+        "id_enfrentamiento": 95,
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "id_competidor": "941",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "59"
+            }
+        ],
+        "id_campeonato": "7"
+    },
+    {
+        "id_enfrentamiento": 96,
+        "id_campeonato": "7",
+        "participantes": [
+            {
+                "id_competidor": "755",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "514",
+                "resultoGanador": "false"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1
+    },
+    {
+        "id_enfrentamiento": 97,
+        "llave": 1,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "949",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "586",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_campeonato": "7"
+    },
+    {
+        "id_enfrentamiento": 98,
+        "participantes": [
+            {
+                "id_competidor": "865",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "528"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1,
+        "id_campeonato": "7"
+    },
+    {
+        "participantes": [
+            {
+                "id_competidor": "823",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "910"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 2,
+        "id_campeonato": "7",
+        "id_enfrentamiento": 99
+    },
+    {
+        "id_enfrentamiento": 100,
+        "llave": 2,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "572"
+            },
+            {
+                "id_competidor": "406",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_campeonato": "7"
+    },
+    {
+        "participantes": [
+            {
+                "id_competidor": "941",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "755"
+            }
+        ],
+        "llave": 2,
+        "id_modalidad": 1,
+        "id_campeonato": "7",
+        "id_enfrentamiento": 101
+    },
+    {
+        "id_modalidad": 1,
+        "llave": 2,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "949"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "865"
+            }
+        ],
+        "id_campeonato": "7",
+        "id_enfrentamiento": 102
+    },
+    {
+        "id_enfrentamiento": 103,
+        "id_campeonato": "7",
+        "id_modalidad": 1,
+        "llave": 3,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "823"
+            },
+            {
+                "id_competidor": "572",
+                "resultoGanador": "false"
+            }
+        ]
+    },
+    {
+        "id_enfrentamiento": 104,
+        "id_campeonato": "7",
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "941"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "949"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 3
+    },
+    {
+        "id_enfrentamiento": 105,
+        "id_campeonato": "7",
+        "id_modalidad": 1,
+        "llave": 4,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "823"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "941"
+            }
+        ]
+    },
+    {
+        "id_campeonato": "8",
+        "participantes": [
+            {
+                "id_competidor": "395",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "719",
+                "resultoGanador": "false"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1,
+        "id_enfrentamiento": 106
+    },
+    {
+        "id_enfrentamiento": 107,
+        "id_campeonato": "8",
+        "participantes": [
+            {
+                "id_competidor": "186",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "333"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1
+    },
+    {
+        "id_campeonato": "8",
+        "participantes": [
+            {
+                "id_competidor": "570",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "58",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1,
+        "id_enfrentamiento": 108
+    },
+    {
+        "id_enfrentamiento": 109,
+        "id_campeonato": "8",
+        "llave": 1,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "75"
+            },
+            {
+                "id_competidor": "547",
+                "resultoGanador": "false"
+            }
+        ]
+    },
+    {
+        "id_campeonato": "8",
+        "llave": 1,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "721",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "345",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_enfrentamiento": 110
+    },
+    {
+        "id_enfrentamiento": 111,
+        "id_campeonato": "8",
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "802"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "744"
+            }
+        ]
+    },
+    {
+        "id_campeonato": "8",
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "658"
+            },
+            {
+                "id_competidor": "286",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1,
+        "id_enfrentamiento": 112
+    },
+    {
+        "id_enfrentamiento": 113,
+        "id_campeonato": "8",
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "252"
+            },
+            {
+                "id_competidor": "644",
+                "resultoGanador": "false"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1
+    },
+    {
+        "id_modalidad": 1,
+        "llave": 2,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "395"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "186"
+            }
+        ],
+        "id_campeonato": "8",
+        "id_enfrentamiento": 114
+    },
+    {
+        "id_enfrentamiento": 115,
+        "id_campeonato": "8",
+        "id_modalidad": 1,
+        "llave": 2,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "570"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "75"
+            }
+        ]
+    },
+    {
+        "id_enfrentamiento": 116,
+        "id_campeonato": "8",
+        "id_modalidad": 1,
+        "llave": 2,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "721"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "802"
+            }
+        ]
+    },
+    {
+        "id_enfrentamiento": 117,
+        "id_modalidad": 1,
+        "llave": 2,
+        "participantes": [
+            {
+                "id_competidor": "658",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "252",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_campeonato": "8"
+    },
+    {
+        "id_campeonato": "8",
+        "llave": 3,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "395"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "570"
+            }
+        ],
+        "id_enfrentamiento": 118
+    },
+    {
+        "id_enfrentamiento": 119,
+        "id_campeonato": "8",
+        "participantes": [
+            {
+                "id_competidor": "721",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "658"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 3
+    },
+    {
+        "id_enfrentamiento": 120,
+        "id_campeonato": "8",
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "395"
+            },
+            {
+                "id_competidor": "721",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 4
+    },
+    {
+        "id_enfrentamiento": 121,
+        "participantes": [
+            {
+                "id_competidor": "73",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "203",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1,
+        "id_campeonato": "9"
+    },
+    {
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "635"
+            },
+            {
+                "id_competidor": "399",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1,
+        "id_campeonato": "9",
+        "id_enfrentamiento": 122
+    },
+    {
+        "id_campeonato": "9",
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "368"
+            },
+            {
+                "id_competidor": "745",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_enfrentamiento": 123
+    },
+    {
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "953"
+            },
+            {
+                "id_competidor": "190",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1,
+        "id_campeonato": "9",
+        "id_enfrentamiento": 124
+    },
+    {
+        "id_campeonato": "9",
+        "participantes": [
+            {
+                "id_competidor": "563",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "762"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1,
+        "id_enfrentamiento": 125
+    },
+    {
+        "id_enfrentamiento": 126,
+        "participantes": [
+            {
+                "id_competidor": "546",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "401",
+                "resultoGanador": "false"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1,
+        "id_campeonato": "9"
+    },
+    {
+        "id_campeonato": "9",
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "650"
+            },
+            {
+                "id_competidor": "544",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_enfrentamiento": 127
+    },
+    {
+        "id_campeonato": "9",
+        "participantes": [
+            {
+                "id_competidor": "767",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "134",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1,
+        "id_enfrentamiento": 128
+    },
+    {
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "73"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "635"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 2,
+        "id_campeonato": "9",
+        "id_enfrentamiento": 129
+    },
+    {
+        "id_campeonato": "9",
+        "participantes": [
+            {
+                "id_competidor": "368",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "953"
+            }
+        ],
+        "llave": 2,
+        "id_modalidad": 1,
+        "id_enfrentamiento": 130
+    },
+    {
+        "id_campeonato": "9",
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "563"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "546"
+            }
+        ],
+        "llave": 2,
+        "id_modalidad": 1,
+        "id_enfrentamiento": 131
+    },
+    {
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "650"
+            },
+            {
+                "id_competidor": "767",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 2,
+        "id_campeonato": "9",
+        "id_enfrentamiento": 132
+    },
+    {
+        "id_enfrentamiento": 133,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "73"
+            },
+            {
+                "id_competidor": "368",
+                "resultoGanador": "false"
+            }
+        ],
+        "llave": 3,
+        "id_modalidad": 1,
+        "id_campeonato": "9"
+    },
+    {
+        "llave": 3,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "563",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "650"
+            }
+        ],
+        "id_campeonato": "9",
+        "id_enfrentamiento": 134
+    },
+    {
+        "id_campeonato": "9",
+        "id_modalidad": 1,
+        "llave": 4,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "73"
+            },
+            {
+                "id_competidor": "563",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_enfrentamiento": 135
+    },
+    {
+        "id_enfrentamiento": 136,
+        "id_campeonato": "10",
+        "participantes": [
+            {
+                "id_competidor": "612",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "357",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1
+    },
+    {
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "476"
+            },
+            {
+                "id_competidor": "352",
+                "resultoGanador": "false"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1,
+        "id_campeonato": "10",
+        "id_enfrentamiento": 137
+    },
+    {
+        "llave": 1,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "91",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "65",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_campeonato": "10",
+        "id_enfrentamiento": 138
+    },
+    {
+        "id_campeonato": "10",
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "906"
+            },
+            {
+                "id_competidor": "229",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1,
+        "id_enfrentamiento": 139
+    },
+    {
+        "id_enfrentamiento": 140,
+        "id_campeonato": "10",
+        "participantes": [
+            {
+                "id_competidor": "764",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "747"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1
+    },
+    {
+        "id_enfrentamiento": 141,
+        "participantes": [
+            {
+                "id_competidor": "331",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "580",
+                "resultoGanador": "false"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1,
+        "id_campeonato": "10"
+    },
+    {
+        "id_enfrentamiento": 142,
+        "llave": 1,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "221",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "81",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_campeonato": "10"
+    },
+    {
+        "participantes": [
+            {
+                "id_competidor": "305",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "844"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1,
+        "id_campeonato": "10",
+        "id_enfrentamiento": 143
+    },
+    {
+        "id_enfrentamiento": 144,
+        "id_modalidad": 1,
+        "llave": 2,
+        "participantes": [
+            {
+                "id_competidor": "612",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "476",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_campeonato": "10"
+    },
+    {
+        "llave": 2,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "91",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "906"
+            }
+        ],
+        "id_campeonato": "10",
+        "id_enfrentamiento": 145
+    },
+    {
+        "id_enfrentamiento": 146,
+        "id_campeonato": "10",
+        "participantes": [
+            {
+                "id_competidor": "764",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "331",
+                "resultoGanador": "false"
+            }
+        ],
+        "llave": 2,
+        "id_modalidad": 1
+    },
+    {
+        "id_modalidad": 1,
+        "llave": 2,
+        "participantes": [
+            {
+                "id_competidor": "221",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "305",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_campeonato": "10",
+        "id_enfrentamiento": 147
+    },
+    {
+        "id_campeonato": "10",
+        "participantes": [
+            {
+                "id_competidor": "612",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "91",
+                "resultoGanador": "false"
+            }
+        ],
+        "llave": 3,
+        "id_modalidad": 1,
+        "id_enfrentamiento": 148
+    },
+    {
+        "id_campeonato": "10",
+        "id_modalidad": 1,
+        "llave": 3,
+        "participantes": [
+            {
+                "id_competidor": "764",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "221",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_enfrentamiento": 149
+    },
+    {
+        "participantes": [
+            {
+                "id_competidor": "612",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "764"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 4,
+        "id_campeonato": "10",
+        "id_enfrentamiento": 150
+    },
+    {
+        "id_enfrentamiento": 151,
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "709"
+            },
+            {
+                "id_competidor": "870",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_campeonato": "11"
+    },
+    {
+        "id_campeonato": "11",
+        "participantes": [
+            {
+                "id_competidor": "408",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "174",
+                "resultoGanador": "false"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1,
+        "id_enfrentamiento": 152
+    },
+    {
+        "id_enfrentamiento": 153,
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "623"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "775"
+            }
+        ],
+        "id_campeonato": "11"
+    },
+    {
+        "id_enfrentamiento": 154,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "483"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "965"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1,
+        "id_campeonato": "11"
+    },
+    {
+        "id_enfrentamiento": 155,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "557"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "104"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1,
+        "id_campeonato": "11"
+    },
+    {
+        "id_enfrentamiento": 156,
+        "id_campeonato": "11",
+        "llave": 1,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "348",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "284"
+            }
+        ]
+    },
+    {
+        "id_enfrentamiento": 157,
+        "participantes": [
+            {
+                "id_competidor": "551",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "805"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1,
+        "id_campeonato": "11"
+    },
+    {
+        "id_enfrentamiento": 158,
+        "id_campeonato": "11",
+        "participantes": [
+            {
+                "id_competidor": "859",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "684"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1
+    },
+    {
+        "id_enfrentamiento": 159,
+        "id_campeonato": "11",
+        "participantes": [
+            {
+                "id_competidor": "709",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "408"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 2
+    },
+    {
+        "llave": 2,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "623"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "483"
+            }
+        ],
+        "id_campeonato": "11",
+        "id_enfrentamiento": 160
+    },
+    {
+        "id_campeonato": "11",
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "557"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "348"
+            }
+        ],
+        "llave": 2,
+        "id_modalidad": 1,
+        "id_enfrentamiento": 161
+    },
+    {
+        "id_enfrentamiento": 162,
+        "id_campeonato": "11",
+        "llave": 2,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "551",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "859"
+            }
+        ]
+    },
+    {
+        "id_enfrentamiento": 163,
+        "id_modalidad": 1,
+        "llave": 3,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "709"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "623"
+            }
+        ],
+        "id_campeonato": "11"
+    },
+    {
+        "id_enfrentamiento": 164,
+        "id_campeonato": "11",
+        "llave": 3,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "557",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "551"
+            }
+        ]
+    },
+    {
+        "participantes": [
+            {
+                "id_competidor": "709",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "557",
+                "resultoGanador": "false"
+            }
+        ],
+        "llave": 4,
+        "id_modalidad": 1,
+        "id_campeonato": "11",
+        "id_enfrentamiento": 165
+    },
+    {
+        "id_enfrentamiento": 166,
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "id_competidor": "174",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "425"
+            }
+        ],
+        "id_campeonato": "12"
+    },
+    {
+        "id_enfrentamiento": 167,
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "82"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "262"
+            }
+        ],
+        "id_campeonato": "12"
+    },
+    {
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "id_competidor": "207",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "551"
+            }
+        ],
+        "id_campeonato": "12",
+        "id_enfrentamiento": 168
+    },
+    {
+        "id_enfrentamiento": 169,
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "id_competidor": "348",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "557",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_campeonato": "12"
+    },
+    {
+        "id_enfrentamiento": 170,
+        "participantes": [
+            {
+                "id_competidor": "775",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "954"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1,
+        "id_campeonato": "12"
+    },
+    {
+        "id_enfrentamiento": 171,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "517"
+            },
+            {
+                "id_competidor": "978",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1,
+        "id_campeonato": "12"
+    },
+    {
+        "id_enfrentamiento": 172,
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "id_competidor": "741",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "854"
+            }
+        ],
+        "id_campeonato": "12"
+    },
+    {
+        "id_enfrentamiento": 173,
+        "llave": 1,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "859"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "277"
+            }
+        ],
+        "id_campeonato": "12"
+    },
+    {
+        "id_enfrentamiento": 174,
+        "llave": 2,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "174"
+            },
+            {
+                "id_competidor": "82",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_campeonato": "12"
+    },
+    {
+        "id_modalidad": 1,
+        "llave": 2,
+        "participantes": [
+            {
+                "id_competidor": "207",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "348"
+            }
+        ],
+        "id_campeonato": "12",
+        "id_enfrentamiento": 175
+    },
+    {
+        "id_modalidad": 1,
+        "llave": 2,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "775"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "517"
+            }
+        ],
+        "id_campeonato": "12",
+        "id_enfrentamiento": 176
+    },
+    {
+        "id_enfrentamiento": 177,
+        "participantes": [
+            {
+                "id_competidor": "741",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "859",
+                "resultoGanador": "false"
+            }
+        ],
+        "llave": 2,
+        "id_modalidad": 1,
+        "id_campeonato": "12"
+    },
+    {
+        "id_enfrentamiento": 178,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "174"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "207"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 3,
+        "id_campeonato": "12"
+    },
+    {
+        "id_campeonato": "12",
+        "id_modalidad": 1,
+        "llave": 3,
+        "participantes": [
+            {
+                "id_competidor": "775",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "741"
+            }
+        ],
+        "id_enfrentamiento": 179
+    },
+    {
+        "id_enfrentamiento": 180,
+        "id_modalidad": 1,
+        "llave": 4,
+        "participantes": [
+            {
+                "id_competidor": "174",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "775"
+            }
+        ],
+        "id_campeonato": "12"
+    },
+    {
+        "id_enfrentamiento": 181,
+        "id_campeonato": "13",
+        "participantes": [
+            {
+                "id_competidor": "255",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "769"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1
+    },
+    {
+        "id_enfrentamiento": 182,
+        "participantes": [
+            {
+                "id_competidor": "776",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "420"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1,
+        "id_campeonato": "13"
+    },
+    {
+        "id_enfrentamiento": 183,
+        "id_campeonato": "13",
+        "participantes": [
+            {
+                "id_competidor": "143",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "501",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1
+    },
+    {
+        "id_enfrentamiento": 184,
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "204"
+            },
+            {
+                "id_competidor": "807",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_campeonato": "13"
+    },
+    {
+        "id_campeonato": "13",
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "id_competidor": "488",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "276",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_enfrentamiento": 185
+    },
+    {
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "17"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "732"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1,
+        "id_campeonato": "13",
+        "id_enfrentamiento": 186
+    },
+    {
+        "id_enfrentamiento": 187,
+        "participantes": [
+            {
+                "id_competidor": "378",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "645"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1,
+        "id_campeonato": "13"
+    },
+    {
+        "id_enfrentamiento": 188,
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "588"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "146"
+            }
+        ],
+        "id_campeonato": "13"
+    },
+    {
+        "id_enfrentamiento": 189,
+        "id_modalidad": 1,
+        "llave": 2,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "255"
+            },
+            {
+                "id_competidor": "776",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_campeonato": "13"
+    },
+    {
+        "id_campeonato": "13",
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "143"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "204"
+            }
+        ],
+        "llave": 2,
+        "id_modalidad": 1,
+        "id_enfrentamiento": 190
+    },
+    {
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "488"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "17"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 2,
+        "id_campeonato": "13",
+        "id_enfrentamiento": 191
+    },
+    {
+        "id_enfrentamiento": 192,
+        "id_modalidad": 1,
+        "llave": 2,
+        "participantes": [
+            {
+                "id_competidor": "378",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "588",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_campeonato": "13"
+    },
+    {
+        "participantes": [
+            {
+                "id_competidor": "255",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "143"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 3,
+        "id_campeonato": "13",
+        "id_enfrentamiento": 193
+    },
+    {
+        "id_campeonato": "13",
+        "llave": 3,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "488",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "378"
+            }
+        ],
+        "id_enfrentamiento": 194
+    },
+    {
+        "llave": 4,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "255",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "488",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_campeonato": "13",
+        "id_enfrentamiento": 195
+    },
+    {
+        "id_campeonato": "14",
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "id_competidor": "985",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "41"
+            }
+        ],
+        "id_enfrentamiento": 196
+    },
+    {
+        "id_enfrentamiento": 197,
+        "llave": 1,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "779",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "535"
+            }
+        ],
+        "id_campeonato": "14"
+    },
+    {
+        "llave": 1,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "447",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "260"
+            }
+        ],
+        "id_campeonato": "14",
+        "id_enfrentamiento": 198
+    },
+    {
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "81"
+            },
+            {
+                "id_competidor": "877",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1,
+        "id_campeonato": "14",
+        "id_enfrentamiento": 199
+    },
+    {
+        "id_campeonato": "14",
+        "participantes": [
+            {
+                "id_competidor": "305",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "772"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1,
+        "id_enfrentamiento": 200
+    },
+    {
+        "id_enfrentamiento": 201,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "530"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "7"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1,
+        "id_campeonato": "14"
+    },
+    {
+        "id_campeonato": "14",
+        "participantes": [
+            {
+                "id_competidor": "481",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "253",
+                "resultoGanador": "false"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1,
+        "id_enfrentamiento": 202
+    },
+    {
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "630"
+            },
+            {
+                "id_competidor": "65",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_campeonato": "14",
+        "id_enfrentamiento": 203
+    },
+    {
+        "participantes": [
+            {
+                "id_competidor": "985",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "779",
+                "resultoGanador": "false"
+            }
+        ],
+        "llave": 2,
+        "id_modalidad": 1,
+        "id_campeonato": "14",
+        "id_enfrentamiento": 204
+    },
+    {
+        "id_enfrentamiento": 205,
+        "id_campeonato": "14",
+        "participantes": [
+            {
+                "id_competidor": "447",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "81"
+            }
+        ],
+        "llave": 2,
+        "id_modalidad": 1
+    },
+    {
+        "id_enfrentamiento": 206,
+        "id_campeonato": "14",
+        "llave": 2,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "305",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "530"
+            }
+        ]
+    },
+    {
+        "id_campeonato": "14",
+        "llave": 2,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "481",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "630",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_enfrentamiento": 207
+    },
+    {
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "985"
+            },
+            {
+                "id_competidor": "447",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 3,
+        "id_campeonato": "14",
+        "id_enfrentamiento": 208
+    },
+    {
+        "llave": 3,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "305",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "481",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_campeonato": "14",
+        "id_enfrentamiento": 209
+    },
+    {
+        "id_enfrentamiento": 210,
+        "id_campeonato": "14",
+        "participantes": [
+            {
+                "id_competidor": "985",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "305"
+            }
+        ],
+        "llave": 4,
+        "id_modalidad": 1
+    },
+    {
+        "id_enfrentamiento": 211,
+        "id_campeonato": "15",
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "969"
+            },
+            {
+                "id_competidor": "415",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1
+    },
+    {
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "762"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "546"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1,
+        "id_campeonato": "15",
+        "id_enfrentamiento": 212
+    },
+    {
+        "id_campeonato": "15",
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "id_competidor": "660",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "401"
+            }
+        ],
+        "id_enfrentamiento": 213
+    },
+    {
+        "id_campeonato": "15",
+        "participantes": [
+            {
+                "id_competidor": "374",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "832"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1,
+        "id_enfrentamiento": 214
+    },
+    {
+        "id_campeonato": "15",
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "id_competidor": "563",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "190",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_enfrentamiento": 215
+    },
+    {
+        "id_enfrentamiento": 216,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "731"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "71"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1,
+        "id_campeonato": "15"
+    },
+    {
+        "id_campeonato": "15",
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "22"
+            },
+            {
+                "id_competidor": "73",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_enfrentamiento": 217
+    },
+    {
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "635"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "909"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1,
+        "id_campeonato": "15",
+        "id_enfrentamiento": 218
+    },
+    {
+        "llave": 2,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "969",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "762",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_campeonato": "15",
+        "id_enfrentamiento": 219
+    },
+    {
+        "id_campeonato": "15",
+        "llave": 2,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "660",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "374"
+            }
+        ],
+        "id_enfrentamiento": 220
+    },
+    {
+        "id_enfrentamiento": 221,
+        "participantes": [
+            {
+                "id_competidor": "563",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "731"
+            }
+        ],
+        "llave": 2,
+        "id_modalidad": 1,
+        "id_campeonato": "15"
+    },
+    {
+        "llave": 2,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "22"
+            },
+            {
+                "id_competidor": "635",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_campeonato": "15",
+        "id_enfrentamiento": 222
+    },
+    {
+        "id_modalidad": 1,
+        "llave": 3,
+        "participantes": [
+            {
+                "id_competidor": "969",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "660"
+            }
+        ],
+        "id_campeonato": "15",
+        "id_enfrentamiento": 223
+    },
+    {
+        "id_enfrentamiento": 224,
+        "id_campeonato": "15",
+        "llave": 3,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "563",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "22"
+            }
+        ]
+    },
+    {
+        "id_enfrentamiento": 225,
+        "id_campeonato": "15",
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "969"
+            },
+            {
+                "id_competidor": "563",
+                "resultoGanador": "false"
+            }
+        ],
+        "llave": 4,
+        "id_modalidad": 1
+    },
+    {
+        "id_enfrentamiento": 226,
+        "id_campeonato": "16",
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "649"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "863"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1
+    },
+    {
+        "id_campeonato": "16",
+        "participantes": [
+            {
+                "id_competidor": "944",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "670",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1,
+        "id_enfrentamiento": 227
+    },
+    {
+        "id_enfrentamiento": 228,
+        "participantes": [
+            {
+                "id_competidor": "868",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "962",
+                "resultoGanador": "false"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1,
+        "id_campeonato": "16"
+    },
+    {
+        "id_campeonato": "16",
+        "participantes": [
+            {
+                "id_competidor": "916",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "77",
+                "resultoGanador": "false"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1,
+        "id_enfrentamiento": 229
+    },
+    {
+        "id_enfrentamiento": 230,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "136"
+            },
+            {
+                "id_competidor": "625",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1,
+        "id_campeonato": "16"
+    },
+    {
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "970"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "716"
+            }
+        ],
+        "id_campeonato": "16",
+        "id_enfrentamiento": 231
+    },
+    {
+        "id_campeonato": "16",
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "id_competidor": "330",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "711"
+            }
+        ],
+        "id_enfrentamiento": 232
+    },
+    {
+        "id_enfrentamiento": 233,
+        "id_campeonato": "16",
+        "participantes": [
+            {
+                "id_competidor": "412",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "552",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1
+    },
+    {
+        "llave": 2,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "649"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "944"
+            }
+        ],
+        "id_campeonato": "16",
+        "id_enfrentamiento": 234
+    },
+    {
+        "id_enfrentamiento": 235,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "868"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "916"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 2,
+        "id_campeonato": "16"
+    },
+    {
+        "participantes": [
+            {
+                "id_competidor": "136",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "970",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 2,
+        "id_campeonato": "16",
+        "id_enfrentamiento": 236
+    },
+    {
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "330"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "412"
+            }
+        ],
+        "llave": 2,
+        "id_modalidad": 1,
+        "id_campeonato": "16",
+        "id_enfrentamiento": 237
+    },
+    {
+        "llave": 3,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "649",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "868"
+            }
+        ],
+        "id_campeonato": "16",
+        "id_enfrentamiento": 238
+    },
+    {
+        "id_campeonato": "16",
+        "participantes": [
+            {
+                "id_competidor": "136",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "330"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 3,
+        "id_enfrentamiento": 239
+    },
+    {
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "649"
+            },
+            {
+                "id_competidor": "136",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 4,
+        "id_campeonato": "16",
+        "id_enfrentamiento": 240
+    },
+    {
+        "id_enfrentamiento": 241,
+        "id_campeonato": "17",
+        "llave": 1,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "663"
+            },
+            {
+                "id_competidor": "640",
+                "resultoGanador": "false"
+            }
+        ]
+    },
+    {
+        "id_enfrentamiento": 242,
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "249"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "302"
+            }
+        ],
+        "id_campeonato": "17"
+    },
+    {
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "162"
+            },
+            {
+                "id_competidor": "935",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_campeonato": "17",
+        "id_enfrentamiento": 243
+    },
+    {
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "id_competidor": "2",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "552"
+            }
+        ],
+        "id_campeonato": "17",
+        "id_enfrentamiento": 244
+    },
+    {
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "422"
+            },
+            {
+                "id_competidor": "46",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1,
+        "id_campeonato": "17",
+        "id_enfrentamiento": 245
+    },
+    {
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "496"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "364"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1,
+        "id_campeonato": "17",
+        "id_enfrentamiento": 246
+    },
+    {
+        "id_enfrentamiento": 247,
+        "participantes": [
+            {
+                "id_competidor": "366",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "287"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1,
+        "id_campeonato": "17"
+    },
+    {
+        "id_campeonato": "17",
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "id_competidor": "931",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "16"
+            }
+        ],
+        "id_enfrentamiento": 248
+    },
+    {
+        "id_modalidad": 1,
+        "llave": 2,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "663"
+            },
+            {
+                "id_competidor": "249",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_campeonato": "17",
+        "id_enfrentamiento": 249
+    },
+    {
+        "id_campeonato": "17",
+        "id_modalidad": 1,
+        "llave": 2,
+        "participantes": [
+            {
+                "id_competidor": "162",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "2",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_enfrentamiento": 250
+    },
+    {
+        "id_campeonato": "17",
+        "id_modalidad": 1,
+        "llave": 2,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "422"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "496"
+            }
+        ],
+        "id_enfrentamiento": 251
+    },
+    {
+        "participantes": [
+            {
+                "id_competidor": "366",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "931",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 2,
+        "id_campeonato": "17",
+        "id_enfrentamiento": 252
+    },
+    {
+        "id_enfrentamiento": 253,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "663"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "162"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 3,
+        "id_campeonato": "17"
+    },
+    {
+        "llave": 3,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "422",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "366"
+            }
+        ],
+        "id_campeonato": "17",
+        "id_enfrentamiento": 254
+    },
+    {
+        "id_campeonato": "17",
+        "id_modalidad": 1,
+        "llave": 4,
+        "participantes": [
+            {
+                "id_competidor": "663",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "422",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_enfrentamiento": 255
+    },
+    {
+        "id_enfrentamiento": 256,
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "483"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "623"
+            }
+        ],
+        "id_campeonato": "18"
+    },
+    {
+        "participantes": [
+            {
+                "id_competidor": "775",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "284",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1,
+        "id_campeonato": "18",
+        "id_enfrentamiento": 257
+    },
+    {
+        "id_enfrentamiento": 258,
+        "llave": 1,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "551",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "104",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_campeonato": "18"
+    },
+    {
+        "id_enfrentamiento": 259,
+        "llave": 1,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "408"
+            },
+            {
+                "id_competidor": "414",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_campeonato": "18"
+    },
+    {
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "709"
+            },
+            {
+                "id_competidor": "82",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_campeonato": "18",
+        "id_enfrentamiento": 260
+    },
+    {
+        "id_enfrentamiento": 261,
+        "id_campeonato": "18",
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "523"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "174"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1
+    },
+    {
+        "id_enfrentamiento": 262,
+        "id_campeonato": "18",
+        "participantes": [
+            {
+                "id_competidor": "231",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "993"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1
+    },
+    {
+        "id_enfrentamiento": 263,
+        "id_campeonato": "18",
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "914"
+            },
+            {
+                "id_competidor": "247",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1
+    },
+    {
+        "id_enfrentamiento": 264,
+        "id_campeonato": "18",
+        "id_modalidad": 1,
+        "llave": 2,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "483"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "775"
+            }
+        ]
+    },
+    {
+        "id_campeonato": "18",
+        "llave": 2,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "551"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "408"
+            }
+        ],
+        "id_enfrentamiento": 265
+    },
+    {
+        "id_campeonato": "18",
+        "llave": 2,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "709"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "523"
+            }
+        ],
+        "id_enfrentamiento": 266
+    },
+    {
+        "id_enfrentamiento": 267,
+        "id_campeonato": "18",
+        "participantes": [
+            {
+                "id_competidor": "231",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "914"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 2
+    },
+    {
+        "id_campeonato": "18",
+        "llave": 3,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "483",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "551"
+            }
+        ],
+        "id_enfrentamiento": 268
+    },
+    {
+        "id_enfrentamiento": 269,
+        "id_campeonato": "18",
+        "participantes": [
+            {
+                "id_competidor": "709",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "231",
+                "resultoGanador": "false"
+            }
+        ],
+        "llave": 3,
+        "id_modalidad": 1
+    },
+    {
+        "llave": 4,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "483"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "709"
+            }
+        ],
+        "id_campeonato": "18",
+        "id_enfrentamiento": 270
+    },
+    {
+        "id_enfrentamiento": 271,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "539"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "293"
+            }
+        ],
+        "llave": 1,
+        "id_modalidad": 1,
+        "id_campeonato": "19"
+    },
+    {
+        "id_campeonato": "19",
+        "participantes": [
+            {
+                "id_competidor": "391",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "631",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1,
+        "id_enfrentamiento": 272
+    },
+    {
+        "llave": 1,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "614",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "271",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_campeonato": "19",
+        "id_enfrentamiento": 273
+    },
+    {
+        "id_enfrentamiento": 274,
+        "llave": 1,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "656",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "599"
+            }
+        ],
+        "id_campeonato": "19"
+    },
+    {
+        "id_campeonato": "19",
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "id_competidor": "130",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "108",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_enfrentamiento": 275
+    },
+    {
+        "id_enfrentamiento": 276,
+        "id_campeonato": "19",
+        "llave": 1,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "953",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "645"
+            }
+        ]
+    },
+    {
+        "id_campeonato": "19",
+        "id_modalidad": 1,
+        "llave": 1,
+        "participantes": [
+            {
+                "id_competidor": "751",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "714"
+            }
+        ],
+        "id_enfrentamiento": 277
+    },
+    {
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "393"
+            },
+            {
+                "id_competidor": "435",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 1,
+        "id_campeonato": "19",
+        "id_enfrentamiento": 278
+    },
+    {
+        "id_modalidad": 1,
+        "llave": 2,
+        "participantes": [
+            {
+                "id_competidor": "539",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "391",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_campeonato": "19",
+        "id_enfrentamiento": 279
+    },
+    {
+        "id_enfrentamiento": 280,
+        "id_campeonato": "19",
+        "llave": 2,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "614",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "656"
+            }
+        ]
+    },
+    {
+        "id_enfrentamiento": 281,
+        "participantes": [
+            {
+                "resultoGanador": "true",
+                "id_competidor": "130"
+            },
+            {
+                "id_competidor": "953",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 2,
+        "id_campeonato": "19"
+    },
+    {
+        "participantes": [
+            {
+                "id_competidor": "751",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "393",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_modalidad": 1,
+        "llave": 2,
+        "id_campeonato": "19",
+        "id_enfrentamiento": 282
+    },
+    {
+        "llave": 3,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "539",
+                "resultoGanador": "true"
+            },
+            {
+                "id_competidor": "614",
+                "resultoGanador": "false"
+            }
+        ],
+        "id_campeonato": "19",
+        "id_enfrentamiento": 283
+    },
+    {
+        "id_enfrentamiento": 284,
+        "id_campeonato": "19",
+        "llave": 3,
+        "id_modalidad": 1,
+        "participantes": [
+            {
+                "id_competidor": "130",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "751"
+            }
+        ]
+    },
+    {
+        "id_enfrentamiento": 285,
+        "participantes": [
+            {
+                "id_competidor": "539",
+                "resultoGanador": "true"
+            },
+            {
+                "resultoGanador": "false",
+                "id_competidor": "130"
+            }
+        ],
+        "llave": 4,
+        "id_modalidad": 1,
+        "id_campeonato": "19"
+    }
+]

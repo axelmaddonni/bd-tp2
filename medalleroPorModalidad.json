@@ -1,0 +1,1162 @@
+[
+    {
+        "id_modalidad": 1,
+        "medallas": [
+            {
+                "puesto": 1,
+                "id_competidor": "88",
+                "id_campeonato": "1"
+            },
+            {
+                "puesto": 2,
+                "id_campeonato": "1",
+                "id_competidor": "265"
+            },
+            {
+                "id_campeonato": "1",
+                "id_competidor": "326",
+                "puesto": 3
+            },
+            {
+                "id_campeonato": "2",
+                "id_competidor": "682",
+                "puesto": 1
+            },
+            {
+                "id_campeonato": "2",
+                "id_competidor": "528",
+                "puesto": 2
+            },
+            {
+                "id_competidor": "722",
+                "id_campeonato": "2",
+                "puesto": 3
+            },
+            {
+                "puesto": 1,
+                "id_campeonato": "3",
+                "id_competidor": "895"
+            },
+            {
+                "id_campeonato": "3",
+                "id_competidor": "795",
+                "puesto": 2
+            },
+            {
+                "puesto": 3,
+                "id_campeonato": "3",
+                "id_competidor": "653"
+            },
+            {
+                "id_campeonato": "4",
+                "id_competidor": "650",
+                "puesto": 1
+            },
+            {
+                "id_competidor": "254",
+                "id_campeonato": "4",
+                "puesto": 2
+            },
+            {
+                "id_competidor": "641",
+                "id_campeonato": "4",
+                "puesto": 3
+            },
+            {
+                "puesto": 1,
+                "id_campeonato": "5",
+                "id_competidor": "899"
+            },
+            {
+                "id_campeonato": "5",
+                "id_competidor": "318",
+                "puesto": 2
+            },
+            {
+                "id_competidor": "774",
+                "id_campeonato": "5",
+                "puesto": 3
+            },
+            {
+                "puesto": 1,
+                "id_campeonato": "6",
+                "id_competidor": "397"
+            },
+            {
+                "puesto": 2,
+                "id_campeonato": "6",
+                "id_competidor": "830"
+            },
+            {
+                "id_campeonato": "6",
+                "id_competidor": "70",
+                "puesto": 3
+            },
+            {
+                "id_competidor": "823",
+                "id_campeonato": "7",
+                "puesto": 1
+            },
+            {
+                "puesto": 2,
+                "id_campeonato": "7",
+                "id_competidor": "941"
+            },
+            {
+                "puesto": 3,
+                "id_competidor": "572",
+                "id_campeonato": "7"
+            },
+            {
+                "puesto": 1,
+                "id_competidor": "395",
+                "id_campeonato": "8"
+            },
+            {
+                "id_competidor": "721",
+                "id_campeonato": "8",
+                "puesto": 2
+            },
+            {
+                "id_campeonato": "8",
+                "id_competidor": "570",
+                "puesto": 3
+            },
+            {
+                "puesto": 1,
+                "id_competidor": "73",
+                "id_campeonato": "9"
+            },
+            {
+                "puesto": 2,
+                "id_campeonato": "9",
+                "id_competidor": "563"
+            },
+            {
+                "id_competidor": "368",
+                "id_campeonato": "9",
+                "puesto": 3
+            },
+            {
+                "id_campeonato": "10",
+                "id_competidor": "612",
+                "puesto": 1
+            },
+            {
+                "puesto": 2,
+                "id_competidor": "764",
+                "id_campeonato": "10"
+            },
+            {
+                "id_competidor": "91",
+                "id_campeonato": "10",
+                "puesto": 3
+            },
+            {
+                "puesto": 1,
+                "id_campeonato": "11",
+                "id_competidor": "709"
+            },
+            {
+                "id_campeonato": "11",
+                "id_competidor": "557",
+                "puesto": 2
+            },
+            {
+                "id_campeonato": "11",
+                "id_competidor": "623",
+                "puesto": 3
+            },
+            {
+                "id_campeonato": "12",
+                "id_competidor": "174",
+                "puesto": 1
+            },
+            {
+                "id_campeonato": "12",
+                "id_competidor": "775",
+                "puesto": 2
+            },
+            {
+                "puesto": 3,
+                "id_campeonato": "12",
+                "id_competidor": "207"
+            },
+            {
+                "puesto": 1,
+                "id_campeonato": "13",
+                "id_competidor": "255"
+            },
+            {
+                "puesto": 2,
+                "id_competidor": "488",
+                "id_campeonato": "13"
+            },
+            {
+                "id_campeonato": "13",
+                "id_competidor": "143",
+                "puesto": 3
+            },
+            {
+                "puesto": 1,
+                "id_campeonato": "14",
+                "id_competidor": "985"
+            },
+            {
+                "puesto": 2,
+                "id_campeonato": "14",
+                "id_competidor": "305"
+            },
+            {
+                "id_campeonato": "14",
+                "id_competidor": "447",
+                "puesto": 3
+            },
+            {
+                "puesto": 1,
+                "id_competidor": "969",
+                "id_campeonato": "15"
+            },
+            {
+                "puesto": 2,
+                "id_competidor": "563",
+                "id_campeonato": "15"
+            },
+            {
+                "id_competidor": "660",
+                "id_campeonato": "15",
+                "puesto": 3
+            },
+            {
+                "puesto": 1,
+                "id_competidor": "649",
+                "id_campeonato": "16"
+            },
+            {
+                "id_competidor": "136",
+                "id_campeonato": "16",
+                "puesto": 2
+            },
+            {
+                "puesto": 3,
+                "id_campeonato": "16",
+                "id_competidor": "868"
+            },
+            {
+                "puesto": 1,
+                "id_competidor": "663",
+                "id_campeonato": "17"
+            },
+            {
+                "id_campeonato": "17",
+                "id_competidor": "422",
+                "puesto": 2
+            },
+            {
+                "puesto": 3,
+                "id_competidor": "162",
+                "id_campeonato": "17"
+            },
+            {
+                "id_competidor": "483",
+                "id_campeonato": "18",
+                "puesto": 1
+            },
+            {
+                "id_campeonato": "18",
+                "id_competidor": "709",
+                "puesto": 2
+            },
+            {
+                "puesto": 3,
+                "id_competidor": "551",
+                "id_campeonato": "18"
+            },
+            {
+                "id_campeonato": "19",
+                "id_competidor": "539",
+                "puesto": 1
+            },
+            {
+                "id_campeonato": "19",
+                "id_competidor": "130",
+                "puesto": 2
+            },
+            {
+                "id_competidor": "614",
+                "id_campeonato": "19",
+                "puesto": 3
+            }
+        ]
+    },
+    {
+        "medallas": [
+            {
+                "id_campeonato": "1",
+                "id_competidor": "634",
+                "puesto": 1
+            },
+            {
+                "puesto": 2,
+                "id_campeonato": "1",
+                "id_competidor": "82"
+            },
+            {
+                "puesto": 3,
+                "id_campeonato": "1",
+                "id_competidor": "284"
+            },
+            {
+                "puesto": 1,
+                "id_competidor": "304",
+                "id_campeonato": "2"
+            },
+            {
+                "id_competidor": "437",
+                "id_campeonato": "2",
+                "puesto": 2
+            },
+            {
+                "puesto": 3,
+                "id_campeonato": "2",
+                "id_competidor": "90"
+            },
+            {
+                "puesto": 1,
+                "id_campeonato": "3",
+                "id_competidor": "90"
+            },
+            {
+                "puesto": 2,
+                "id_campeonato": "3",
+                "id_competidor": "840"
+            },
+            {
+                "id_competidor": "429",
+                "id_campeonato": "3",
+                "puesto": 3
+            },
+            {
+                "puesto": 1,
+                "id_campeonato": "4",
+                "id_competidor": "302"
+            },
+            {
+                "id_competidor": "422",
+                "id_campeonato": "4",
+                "puesto": 2
+            },
+            {
+                "puesto": 3,
+                "id_competidor": "552",
+                "id_campeonato": "4"
+            },
+            {
+                "id_campeonato": "5",
+                "id_competidor": "959",
+                "puesto": 1
+            },
+            {
+                "puesto": 2,
+                "id_campeonato": "5",
+                "id_competidor": "113"
+            },
+            {
+                "puesto": 3,
+                "id_competidor": "300",
+                "id_campeonato": "5"
+            },
+            {
+                "id_competidor": "257",
+                "id_campeonato": "6",
+                "puesto": 1
+            },
+            {
+                "id_campeonato": "6",
+                "id_competidor": "146",
+                "puesto": 2
+            },
+            {
+                "puesto": 3,
+                "id_competidor": "732",
+                "id_campeonato": "6"
+            },
+            {
+                "puesto": 1,
+                "id_competidor": "717",
+                "id_campeonato": "7"
+            },
+            {
+                "puesto": 2,
+                "id_competidor": "169",
+                "id_campeonato": "7"
+            },
+            {
+                "id_competidor": "613",
+                "id_campeonato": "7",
+                "puesto": 3
+            },
+            {
+                "puesto": 1,
+                "id_competidor": "902",
+                "id_campeonato": "8"
+            },
+            {
+                "id_campeonato": "8",
+                "id_competidor": "624",
+                "puesto": 2
+            },
+            {
+                "puesto": 3,
+                "id_competidor": "355",
+                "id_campeonato": "8"
+            },
+            {
+                "id_campeonato": "9",
+                "id_competidor": "136",
+                "puesto": 1
+            },
+            {
+                "id_competidor": "814",
+                "id_campeonato": "9",
+                "puesto": 2
+            },
+            {
+                "id_campeonato": "9",
+                "id_competidor": "573",
+                "puesto": 3
+            },
+            {
+                "id_campeonato": "10",
+                "id_competidor": "342",
+                "puesto": 1
+            },
+            {
+                "puesto": 2,
+                "id_campeonato": "10",
+                "id_competidor": "178"
+            },
+            {
+                "id_competidor": "51",
+                "id_campeonato": "10",
+                "puesto": 3
+            },
+            {
+                "puesto": 1,
+                "id_campeonato": "11",
+                "id_competidor": "24"
+            },
+            {
+                "puesto": 2,
+                "id_competidor": "330",
+                "id_campeonato": "11"
+            },
+            {
+                "puesto": 3,
+                "id_campeonato": "11",
+                "id_competidor": "355"
+            },
+            {
+                "id_campeonato": "12",
+                "id_competidor": "885",
+                "puesto": 1
+            },
+            {
+                "puesto": 2,
+                "id_campeonato": "12",
+                "id_competidor": "600"
+            },
+            {
+                "puesto": 3,
+                "id_competidor": "83",
+                "id_campeonato": "12"
+            },
+            {
+                "puesto": 1,
+                "id_campeonato": "13",
+                "id_competidor": "637"
+            },
+            {
+                "puesto": 2,
+                "id_competidor": "387",
+                "id_campeonato": "13"
+            },
+            {
+                "id_competidor": "907",
+                "id_campeonato": "13",
+                "puesto": 3
+            },
+            {
+                "puesto": 1,
+                "id_campeonato": "14",
+                "id_competidor": "823"
+            },
+            {
+                "puesto": 2,
+                "id_competidor": "733",
+                "id_campeonato": "14"
+            },
+            {
+                "id_competidor": "72",
+                "id_campeonato": "14",
+                "puesto": 3
+            },
+            {
+                "puesto": 1,
+                "id_competidor": "831",
+                "id_campeonato": "15"
+            },
+            {
+                "puesto": 2,
+                "id_campeonato": "15",
+                "id_competidor": "757"
+            },
+            {
+                "id_competidor": "858",
+                "id_campeonato": "15",
+                "puesto": 3
+            },
+            {
+                "puesto": 1,
+                "id_competidor": "88",
+                "id_campeonato": "16"
+            },
+            {
+                "puesto": 2,
+                "id_competidor": "685",
+                "id_campeonato": "16"
+            },
+            {
+                "id_campeonato": "16",
+                "id_competidor": "172",
+                "puesto": 3
+            },
+            {
+                "id_competidor": "698",
+                "id_campeonato": "17",
+                "puesto": 1
+            },
+            {
+                "id_campeonato": "17",
+                "id_competidor": "437",
+                "puesto": 2
+            },
+            {
+                "id_campeonato": "17",
+                "id_competidor": "590",
+                "puesto": 3
+            },
+            {
+                "puesto": 1,
+                "id_campeonato": "18",
+                "id_competidor": "777"
+            },
+            {
+                "puesto": 2,
+                "id_competidor": "582",
+                "id_campeonato": "18"
+            },
+            {
+                "id_campeonato": "18",
+                "id_competidor": "532",
+                "puesto": 3
+            },
+            {
+                "puesto": 1,
+                "id_competidor": "714",
+                "id_campeonato": "19"
+            },
+            {
+                "puesto": 2,
+                "id_competidor": "393",
+                "id_campeonato": "19"
+            },
+            {
+                "id_campeonato": "19",
+                "id_competidor": "435",
+                "puesto": 3
+            }
+        ],
+        "id_modalidad": 2
+    },
+    {
+        "medallas": [
+            {
+                "puesto": 1,
+                "id_campeonato": "1",
+                "id_competidor": "356"
+            },
+            {
+                "puesto": 2,
+                "id_competidor": "923",
+                "id_campeonato": "1"
+            },
+            {
+                "puesto": 3,
+                "id_competidor": "757",
+                "id_campeonato": "1"
+            },
+            {
+                "puesto": 1,
+                "id_campeonato": "2",
+                "id_competidor": "480"
+            },
+            {
+                "puesto": 2,
+                "id_campeonato": "2",
+                "id_competidor": "783"
+            },
+            {
+                "id_campeonato": "2",
+                "id_competidor": "43",
+                "puesto": 3
+            },
+            {
+                "id_campeonato": "3",
+                "id_competidor": "676",
+                "puesto": 1
+            },
+            {
+                "id_competidor": "750",
+                "id_campeonato": "3",
+                "puesto": 2
+            },
+            {
+                "puesto": 3,
+                "id_campeonato": "3",
+                "id_competidor": "468"
+            },
+            {
+                "id_campeonato": "4",
+                "id_competidor": "67",
+                "puesto": 1
+            },
+            {
+                "id_campeonato": "4",
+                "id_competidor": "692",
+                "puesto": 2
+            },
+            {
+                "puesto": 3,
+                "id_campeonato": "4",
+                "id_competidor": "648"
+            },
+            {
+                "id_campeonato": "5",
+                "id_competidor": "742",
+                "puesto": 1
+            },
+            {
+                "id_competidor": "910",
+                "id_campeonato": "5",
+                "puesto": 2
+            },
+            {
+                "id_campeonato": "5",
+                "id_competidor": "572",
+                "puesto": 3
+            },
+            {
+                "puesto": 1,
+                "id_campeonato": "6",
+                "id_competidor": "802"
+            },
+            {
+                "id_campeonato": "6",
+                "id_competidor": "936",
+                "puesto": 2
+            },
+            {
+                "id_campeonato": "6",
+                "id_competidor": "394",
+                "puesto": 3
+            },
+            {
+                "id_competidor": "824",
+                "id_campeonato": "7",
+                "puesto": 1
+            },
+            {
+                "puesto": 2,
+                "id_competidor": "809",
+                "id_campeonato": "7"
+            },
+            {
+                "id_competidor": "322",
+                "id_campeonato": "7",
+                "puesto": 3
+            },
+            {
+                "id_campeonato": "8",
+                "id_competidor": "718",
+                "puesto": 1
+            },
+            {
+                "puesto": 2,
+                "id_competidor": "791",
+                "id_campeonato": "8"
+            },
+            {
+                "id_campeonato": "8",
+                "id_competidor": "238",
+                "puesto": 3
+            },
+            {
+                "id_competidor": "331",
+                "id_campeonato": "9",
+                "puesto": 1
+            },
+            {
+                "puesto": 2,
+                "id_competidor": "396",
+                "id_campeonato": "9"
+            },
+            {
+                "id_competidor": "689",
+                "id_campeonato": "9",
+                "puesto": 3
+            },
+            {
+                "id_campeonato": "10",
+                "id_competidor": "302",
+                "puesto": 1
+            },
+            {
+                "puesto": 2,
+                "id_competidor": "502",
+                "id_campeonato": "10"
+            },
+            {
+                "id_competidor": "499",
+                "id_campeonato": "10",
+                "puesto": 3
+            },
+            {
+                "puesto": 1,
+                "id_competidor": "376",
+                "id_campeonato": "11"
+            },
+            {
+                "id_competidor": "981",
+                "id_campeonato": "11",
+                "puesto": 2
+            },
+            {
+                "puesto": 3,
+                "id_campeonato": "11",
+                "id_competidor": "474"
+            },
+            {
+                "puesto": 1,
+                "id_competidor": "69",
+                "id_campeonato": "12"
+            },
+            {
+                "puesto": 2,
+                "id_competidor": "688",
+                "id_campeonato": "12"
+            },
+            {
+                "puesto": 3,
+                "id_campeonato": "12",
+                "id_competidor": "532"
+            },
+            {
+                "id_competidor": "707",
+                "id_campeonato": "13",
+                "puesto": 1
+            },
+            {
+                "puesto": 2,
+                "id_campeonato": "13",
+                "id_competidor": "54"
+            },
+            {
+                "id_campeonato": "13",
+                "id_competidor": "720",
+                "puesto": 3
+            },
+            {
+                "id_competidor": "716",
+                "id_campeonato": "14",
+                "puesto": 1
+            },
+            {
+                "id_competidor": "99",
+                "id_campeonato": "14",
+                "puesto": 2
+            },
+            {
+                "puesto": 3,
+                "id_campeonato": "14",
+                "id_competidor": "834"
+            },
+            {
+                "puesto": 1,
+                "id_campeonato": "15",
+                "id_competidor": "20"
+            },
+            {
+                "puesto": 2,
+                "id_campeonato": "15",
+                "id_competidor": "384"
+            },
+            {
+                "id_competidor": "974",
+                "id_campeonato": "15",
+                "puesto": 3
+            },
+            {
+                "id_competidor": "654",
+                "id_campeonato": "16",
+                "puesto": 1
+            },
+            {
+                "id_competidor": "618",
+                "id_campeonato": "16",
+                "puesto": 2
+            },
+            {
+                "id_campeonato": "16",
+                "id_competidor": "12",
+                "puesto": 3
+            },
+            {
+                "id_campeonato": "17",
+                "id_competidor": "366",
+                "puesto": 1
+            },
+            {
+                "puesto": 2,
+                "id_campeonato": "17",
+                "id_competidor": "287"
+            },
+            {
+                "id_competidor": "931",
+                "id_campeonato": "17",
+                "puesto": 3
+            },
+            {
+                "id_campeonato": "18",
+                "id_competidor": "709",
+                "puesto": 1
+            },
+            {
+                "id_competidor": "82",
+                "id_campeonato": "18",
+                "puesto": 2
+            },
+            {
+                "puesto": 3,
+                "id_campeonato": "18",
+                "id_competidor": "523"
+            },
+            {
+                "puesto": 1,
+                "id_competidor": "714",
+                "id_campeonato": "19"
+            },
+            {
+                "puesto": 2,
+                "id_campeonato": "19",
+                "id_competidor": "393"
+            },
+            {
+                "puesto": 3,
+                "id_competidor": "435",
+                "id_campeonato": "19"
+            }
+        ],
+        "id_modalidad": 3
+    },
+    {
+        "id_modalidad": 4,
+        "medallas": [
+            {
+                "puesto": 1,
+                "id_campeonato": "1",
+                "id_competidor": "93"
+            },
+            {
+                "puesto": 2,
+                "id_campeonato": "1",
+                "id_competidor": "269"
+            },
+            {
+                "puesto": 3,
+                "id_competidor": "606",
+                "id_campeonato": "1"
+            },
+            {
+                "id_campeonato": "2",
+                "id_competidor": "176",
+                "puesto": 1
+            },
+            {
+                "puesto": 2,
+                "id_campeonato": "2",
+                "id_competidor": "496"
+            },
+            {
+                "puesto": 3,
+                "id_campeonato": "2",
+                "id_competidor": "334"
+            },
+            {
+                "puesto": 1,
+                "id_campeonato": "3",
+                "id_competidor": "605"
+            },
+            {
+                "id_campeonato": "3",
+                "id_competidor": "392",
+                "puesto": 2
+            },
+            {
+                "id_campeonato": "3",
+                "id_competidor": "828",
+                "puesto": 3
+            },
+            {
+                "puesto": 1,
+                "id_campeonato": "4",
+                "id_competidor": "914"
+            },
+            {
+                "id_campeonato": "4",
+                "id_competidor": "231",
+                "puesto": 2
+            },
+            {
+                "puesto": 3,
+                "id_campeonato": "4",
+                "id_competidor": "993"
+            },
+            {
+                "id_competidor": "780",
+                "id_campeonato": "5",
+                "puesto": 1
+            },
+            {
+                "puesto": 2,
+                "id_competidor": "227",
+                "id_campeonato": "5"
+            },
+            {
+                "puesto": 3,
+                "id_campeonato": "5",
+                "id_competidor": "467"
+            },
+            {
+                "puesto": 1,
+                "id_competidor": "690",
+                "id_campeonato": "6"
+            },
+            {
+                "puesto": 2,
+                "id_campeonato": "6",
+                "id_competidor": "354"
+            },
+            {
+                "id_campeonato": "6",
+                "id_competidor": "774",
+                "puesto": 3
+            },
+            {
+                "puesto": 1,
+                "id_competidor": "725",
+                "id_campeonato": "7"
+            },
+            {
+                "id_campeonato": "7",
+                "id_competidor": "590",
+                "puesto": 2
+            },
+            {
+                "id_competidor": "90",
+                "id_campeonato": "7",
+                "puesto": 3
+            },
+            {
+                "puesto": 1,
+                "id_campeonato": "8",
+                "id_competidor": "355"
+            },
+            {
+                "id_campeonato": "8",
+                "id_competidor": "834",
+                "puesto": 2
+            },
+            {
+                "id_campeonato": "8",
+                "id_competidor": "24",
+                "puesto": 3
+            },
+            {
+                "id_competidor": "469",
+                "id_campeonato": "9",
+                "puesto": 1
+            },
+            {
+                "puesto": 2,
+                "id_campeonato": "9",
+                "id_competidor": "44"
+            },
+            {
+                "puesto": 3,
+                "id_competidor": "213",
+                "id_campeonato": "9"
+            },
+            {
+                "id_campeonato": "10",
+                "id_competidor": "306",
+                "puesto": 1
+            },
+            {
+                "puesto": 2,
+                "id_competidor": "872",
+                "id_campeonato": "10"
+            },
+            {
+                "id_competidor": "137",
+                "id_campeonato": "10",
+                "puesto": 3
+            },
+            {
+                "id_campeonato": "11",
+                "id_competidor": "827",
+                "puesto": 1
+            },
+            {
+                "id_competidor": "534",
+                "id_campeonato": "11",
+                "puesto": 2
+            },
+            {
+                "puesto": 3,
+                "id_campeonato": "11",
+                "id_competidor": "197"
+            },
+            {
+                "puesto": 1,
+                "id_competidor": "328",
+                "id_campeonato": "12"
+            },
+            {
+                "puesto": 2,
+                "id_competidor": "62",
+                "id_campeonato": "12"
+            },
+            {
+                "id_campeonato": "12",
+                "id_competidor": "504",
+                "puesto": 3
+            },
+            {
+                "id_campeonato": "13",
+                "id_competidor": "834",
+                "puesto": 1
+            },
+            {
+                "puesto": 2,
+                "id_competidor": "748",
+                "id_campeonato": "13"
+            },
+            {
+                "puesto": 3,
+                "id_campeonato": "13",
+                "id_competidor": "221"
+            },
+            {
+                "id_campeonato": "14",
+                "id_competidor": "96",
+                "puesto": 1
+            },
+            {
+                "puesto": 2,
+                "id_campeonato": "14",
+                "id_competidor": "527"
+            },
+            {
+                "id_competidor": "648",
+                "id_campeonato": "14",
+                "puesto": 3
+            },
+            {
+                "id_competidor": "190",
+                "id_campeonato": "15",
+                "puesto": 1
+            },
+            {
+                "id_campeonato": "15",
+                "id_competidor": "731",
+                "puesto": 2
+            },
+            {
+                "id_competidor": "71",
+                "id_campeonato": "15",
+                "puesto": 3
+            },
+            {
+                "puesto": 1,
+                "id_competidor": "943",
+                "id_campeonato": "16"
+            },
+            {
+                "puesto": 2,
+                "id_campeonato": "16",
+                "id_competidor": "958"
+            },
+            {
+                "puesto": 3,
+                "id_campeonato": "16",
+                "id_competidor": "96"
+            },
+            {
+                "puesto": 1,
+                "id_competidor": "503",
+                "id_campeonato": "17"
+            },
+            {
+                "puesto": 2,
+                "id_competidor": "832",
+                "id_campeonato": "17"
+            },
+            {
+                "id_competidor": "374",
+                "id_campeonato": "17",
+                "puesto": 3
+            },
+            {
+                "puesto": 1,
+                "id_competidor": "324",
+                "id_campeonato": "18"
+            },
+            {
+                "puesto": 2,
+                "id_campeonato": "18",
+                "id_competidor": "822"
+            },
+            {
+                "puesto": 3,
+                "id_competidor": "961",
+                "id_campeonato": "18"
+            },
+            {
+                "puesto": 1,
+                "id_competidor": "108",
+                "id_campeonato": "19"
+            },
+            {
+                "id_campeonato": "19",
+                "id_competidor": "953",
+                "puesto": 2
+            },
+            {
+                "id_campeonato": "19",
+                "id_competidor": "645",
+                "puesto": 3
+            }
+        ]
+    }
+]
