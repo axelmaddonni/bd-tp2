@@ -15,3 +15,14 @@
 ### Script para generar datos
 
 perl taekwondo.pl (CANTIDAD_DE_CAMPEONATOS)
+
+### Carga de tablas en rethinkdb
+
+rethinkdb import -f escuela.json --table registroHistorico.Escuela
+rethinkdb import -f arbitro.json --table registroHistorico.Arbitro
+rethinkdb import -f competidor.json --table registroHistorico.Competidor
+rethinkdb import -f campeonato.json --table registroHistorico.Campeonato
+rethinkdb import -f enfrentamiento.json --table registroHistorico.Enfrentamiento
+rethinkdb import -f modalidad.json --table registroHistorico.Modalidad
+rethinkdb import -f medalleroPorModalidad.json --table registroHistorico.MedalleroPorModalidad
+
