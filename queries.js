@@ -10,6 +10,14 @@ r.db('registroHistorico').table('Escuela').map(function (escuela) {
 	return r.object('nombre', escuela("nombre"), 'cantidadMedallas', escuela("medallistas").count());
 })
 
+//2.2 con Map-reduce
+r.db('registroHistorico').table('Escuela').group('nombre').map(function(escuela){
+  return escuela("medallistas").count()
+}).reduce(function(acum, n){
+  return acum + n;
+}).default(0)
+
+
 // 2.3 Para cada escuela, el campeonato donde ganó más medallas
 r.db('registroHistorico').table('Escuela').map(function (escuela) {
 	var max = escuela('medallistas').group('id_campeonato').count().ungroup().orderBy(r.desc('reduction')).nth(0).default(r.object('reduction', 0)).getField('reduction');
@@ -18,14 +26,6 @@ r.db('registroHistorico').table('Escuela').map(function (escuela) {
 
 // 2.4 Los arbitros que participaron en al menos 4 campeonatos
 r.db('registroHistorico').table('Arbitro').filter(function(arbitro) { return arbitro('campeonatos').count().ge(4)}).getField("nombre");
-
-//2.4 con Map-reduce
-r.db('registroHistorico').table('Arbitro').map(function(arbitro) {
-  var participoEnAlMenos4 = arbitro('campeonatos').count().ge(4);
-  return r.object('Nombre', r.array(arbitro('nombre')), 'participoEnAlMenos4', participoEnAlMenos4);
-}).reduce(function(acum, e) {
-  return e('participoEnAlMenos4') ? acum.add(e('Nombre')) : acum;
-});
 
 // 2.5 Las escuelas que han presentado el mayor número de competidores en cada campeonato.
 r.db('registroHistorico').table('Campeonato').map(function (campeonato) {
